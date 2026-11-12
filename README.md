@@ -12,9 +12,10 @@ Compreender como a literatura sobre autoridade cognitiva e autoridade epistêmic
 - **dados/01_buscas/wos_bruto/**: as oito exportações originais da Web of Science Core Collection, no formato de texto da Clarivate, e os registros convertidos em JSON.
 - **dados/02_triagem/**: registros únicos após deduplicação, candidatos avaliados, triagem e exclusões da Web of Science e estatísticas do corpus.
 - **dados/03_extracao/**: matriz de extração com os 80 estudos incluídos, localizadores de página e uso de cada fonte.
-- **dados/04_planilha/**: planilha auditável com as abas de buscas, triagem, extração e fluxo.
+- **dados/04_planilha/**: planilha auditável com as abas de buscas, triagem, extração, fluxo e bibliometria.
+- **dados/05_bibliometria.csv** e **dados/05_bibliometria_resumo.csv**: veículo, área do conhecimento, país e instituição de afiliação de cada um dos 80 estudos, com os totais agregados.
 - **protocolo/**: protocolo v1.3, redigido antes das buscas definitivas, com a emenda que incorpora a Web of Science, em DOCX, PDF e Markdown.
-- **figuras/**: diagrama de seleção (PRISMA-ScR) e distribuição temporal dos estudos, em 300 dpi.
+- **figuras/**: diagrama de seleção (PRISMA-ScR) e figura de distribuição temporal e por área do conhecimento, em 300 dpi.
 - **scripts/**: rotinas de coleta, deduplicação, triagem, verificação de metadados, extração e geração das figuras.
 - **checklist/**: lista de verificação PRISMA-ScR preenchida, item por item.
 - **fontes/**: metadados verificados em Crossref e registro dos downloads de textos completos.

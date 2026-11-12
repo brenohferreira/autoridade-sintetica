@@ -1,0 +1,81 @@
+﻿id;veiculo;area;paises;instituicoes;tipo;ano
+F01;Westport: Greenwood Press, 1983.;Livros e anais;;;;1983
+F02;Journal of the Association for Information Science and Technology;Ciência da Informação;FI;"Tampere University; University of Helsinki; University of Oulu; University of Tampere";article;2025
+F03;Libri;Ciência da Informação;FI;"Tampere University; University of Tampere";article;2022
+F04;Journal of the American Society for Information Science and Technology;Ciência da Informação;;;article;2002
+F05;Annual Review of Information Science and Technology;Ciência da Informação;US;"Stanford University; University of Michigan";article;2007
+F06;The Library Quarterly;Ciência da Informação;;;article;2003
+F07;Journal of the American Society for Information Science and Technology;Ciência da Informação;DK;The Royal School of Library and Information Science;article;2002
+F08;Philosophy and Phenomenological Research;Filosofia;US;University of Arizona;article;2001
+F09;The Journal of Philosophy;Filosofia;;;article;1985
+F10;Oxford University Press eBooks;Livros e anais;;;book;2012
+F11;Oxford: Oxford University Press, 2007;Livros e anais;GB;"Birkbeck, University of London; University of London";book;2007
+F12;New Media & Society;Comunicação;US;University of California, Santa Barbara;article;2007
+F13;Communications in computer and information science;Computação e IHC;HR;"University of Osijek; University of Rijeka; University of Zadar";conference-paper;2026
+A01;Minds and Machines;Filosofia;CH;"Dalle Molle Institute for Artificial Intelligence Research; ETH Zurich; University of Applied Sciences and Arts of Southern Switzerland; University of Zurich; Università della Svizzera italiana; École Polytechnique Fédérale de Lausanne";article;2024
+A02;Social Epistemology;Filosofia;DE;Technische Universität Dresden;article;2025
+A03;Machine Learning and Knowledge Extraction;Computação e IHC;IT;"FBK Center for Digital Health & Wellbeing; Fondazione Bruno Kessler; University of Milano-Bicocca";article;2026
+A04;Open Praxis;Educação;TR;Türkiye Büyük Millet Meclisi;article;2026
+A05;Journal of Knowledge Management;Ciência da Informação;CN;"Beijing Institute of Petrochemical Technology; Xi’an Jiaotong-Liverpool University";article;2025
+A06;Societies;Gestão e saúde;ES;Universidad de Salamanca;article;2026
+A07;AI & Society;Computação e IHC;US;Texas Tech University;article;2026
+A08;SSRN Electronic Journal;Preprints e outros;"AR; UY";"Universidad de la Empresa; Universidad de la República de Uruguay; University of Palermo";preprint;2025
+A09;Routledge eBooks;Livros e anais;;;book-chapter;2024
+A10;Ethics and Information Technology;Filosofia;NL;"Radboud University Nijmegen; Tilburg University";article;2022
+A11;Organizational Behavior and Human Decision Processes;Gestão e saúde;US;"Harvard University; University of California, Berkeley";article;2019
+A12;Human Factors The Journal of the Human Factors and Ergonomics Society;Computação e IHC;US;"Catholic University of America; Honeywell (United States)";article;1997
+A13;Human Factors The Journal of the Human Factors and Ergonomics Society;Computação e IHC;;;article;2004
+A14;International Journal of Human-Computer Studies;Computação e IHC;US;"Ames Research Center; San Francisco State University; San Jose State University; University of Illinois Chicago";article;1999
+A15;International Journal of Human-Computer Studies;Computação e IHC;US;"Appalachian State University; Cameron University; DEVCOM Army Research Laboratory; United States Army";article;2003
+A16;Journal of the American Medical Informatics Association;Gestão e saúde;"CA; GB";"City, University of London; University of Victoria; University of Warwick";review;2012
+A17;CHI Conference on Human Factors in Computing Systems;Computação e IHC;US;"Microsoft (United States); University of Washington";conference-paper;2021
+A18;Proceedings of the ACM on Human-Computer Interaction;Computação e IHC;"PL; US";"Harvard University; Lodz University of Technology";article;2021
+A19;Proceedings of the ACM on Human-Computer Interaction;Computação e IHC;US;"Stanford University; University of Washington";article;2023
+X01;Artificial Intelligence;Computação e IHC;AU;The University of Melbourne;article;2019
+X02;Queue;Computação e IHC;US;Carnegie Mellon University;article;2018
+X03;Nature Machine Intelligence;Computação e IHC;US;Duke University;article;2019
+X04;SSRN Electronic Journal;Preprints e outros;US;"Cornell University; Microsoft Research New York City (United States); University of California, Los Angeles";preprint;2018
+X05;International Data Privacy Law;Direito;GB;"British Library; The Alan Turing Institute; University College London; University of Oxford";article;2017
+X06;AI Magazine;Computação e IHC;GB;University of Oxford;article;2017
+X07;SSRN Electronic Journal;Preprints e outros;US;"University of Colorado Boulder; Yale University";preprint;2018
+X08;SSRN Electronic Journal;Preprints e outros;"AU; GB";"Newcastle University; University College London; University of Newcastle Australia";preprint;2017
+X09;Proceedings of the AAAI/ACM Conference on AI Ethics and Society;Computação e IHC;ES;Universidade de Santiago de Compostela;conference-paper;2024
+X10;Big Data & Society;Comunicação;GB;"The Alan Turing Institute; University of Oxford";article;2016
+X11;Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT);Preprints e outros;;;other;2016
+X12;Revista Portuguesa de Ciências Jurídicas;Direito;;;article;2024
+X13;Intertem@s DIREITO;Direito;;;article;2018
+X14;AI and Ethics;Filosofia;US;Georgetown University;article;2026
+E01;International Journal of Educational Technology in Higher Education;Educação;DE;Carl von Ossietzky Universität Oldenburg;review;2019
+E02;Learning and Individual Differences;Educação;DE;"Ludwig-Maximilians-Universität München; Technical University of Munich";article;2023
+E03;Innovations in Education and Teaching International;Educação;GB;"Plymouth Marjon University; University of Plymouth";article;2024
+E04;Journal of University Teaching and Learning Practice;Educação;VN;British University Vietnam;article;2023
+E05;Higher Education;Educação;AU;"Deakin University; La Trobe University";article;2023
+E06;International Journal of Artificial Intelligence in Education;Educação;"AU; BR; ES; GB; PH; US";"Ateneo de Manila University; Carnegie Mellon University; Nesta; Universidad Nacional de Educación a Distancia; Universidade Federal de Alagoas; University College London; University of Technology Sydney";article;2022
+E07;AI and Ethics;Filosofia;US;Michigan State University;review;2022
+E08;Learning Media and Technology;Educação;GB;"University of Edinburgh; University of Oxford";editorial;2020
+E09;Human Factors The Journal of the Human Factors and Ergonomics Society;Computação e IHC;"AT; MC";"International University of Monaco; Management Center Innsbruck";article;2025
+N01;Philosophy of Management;Filosofia;"ES; IE";"Universidad Carlos III de Madrid; University College Dublin";article;2026
+N02;AI & Society;Computação e IHC;GB;University of Cambridge;article;2026
+N03;Medicine Health Care and Philosophy;Filosofia;GB;University of Oxford;article;2026
+N04;New Media & Society;Comunicação;IT;University of Milan;article;2026
+N05;Journal of Intelligence;Computação e IHC;TR;"Atlas Üniversitesi; Fırat University; Istanbul Kent University";article;2026
+N06;IFIP advances in information and communication technology;Computação e IHC;AT;TU Wien;conference-paper;2026
+N07;AI & Society;Computação e IHC;DE;"Einstein Center Digital Future; Osnabrück University";article;2026
+N08;Lecture notes in computer science;Computação e IHC;US;"North Carolina State University; University of Florida";conference-paper;2026
+N09;Proceedings of the Estonian Academy of Sciences;Livros e anais;EE;Tallinn University of Technology;article;2026
+N10;ACM Transactions on Intelligent Systems and Technology;Computação e IHC;"CN; HK; US";"Hong Kong Polytechnic University; Michigan State University; Tsinghua University; Twitter (United States)";article;2025
+N11;International Conference on Artificial Intelligence and Law;Direito;LU;University of Luxembourg;conference-paper;2025
+N12;Business Ethics Quarterly;Gestão e saúde;US;Carnegie Mellon University;article;2022
+N13;Journal of Learning Analytics;Educação;NL;Eindhoven University of Technology;article;2023
+N14;Lecture notes in computer science;Computação e IHC;CN;Beijing Normal University;conference-paper;2025
+N15;Communications in computer and information science;Computação e IHC;MK;South East European University;conference-paper;2023
+N16;CHI Conference on Human Factors in Computing Systems;Computação e IHC;US;"MIT Media Lab; Massachusetts Institute of Technology; Northwestern University; Stanford University";conference-paper;2025
+N17;CHI Conference on Human Factors in Computing Systems;Computação e IHC;US;Pennsylvania State University;conference-paper;2019
+N18;Journal of Broadcasting & Electronic Media;Comunicação;CN;Tsinghua University;article;2026
+N19;Journalism;Comunicação;US;"State University of New York; University at Buffalo, State University of New York";article;2026
+N20;Reference Services Review;Ciência da Informação;US;Seton Hall University;article;2024
+N21;Journal of Broadcasting & Electronic Media;Comunicação;"CN; HK";"Shanghai Jiao Tong University; University of Hong Kong";article;2026
+N22;Open Theology;Filosofia;CA;Memorial University of Newfoundland;article;2026
+N23;AI & Society;Computação e IHC;IL;Kibbutzim College of Education, Technology and the Arts;article;2026
+N24;AI & Society;Computação e IHC;PS;An-Najah National University;article;2026
+N25;Journal of Management Inquiry;Gestão e saúde;CA;University of Toronto;article;2026

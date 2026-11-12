@@ -89,3 +89,11 @@ Metadados de cada referência conferidos em Crossref ou na página do editor, co
 ## `fontes/download_log.json`
 
 Registro das tentativas de obtenção de texto completo, com código de resposta HTTP e origem do arquivo.
+
+## 05_bibliometria.csv
+
+Um registro por estudo incluído. Campos: `id` (identificador interno), `veiculo` (periódico, anais ou livro), `area` (área do conhecimento atribuída ao veículo), `paises` (códigos ISO das instituições de afiliação, separados por ponto e vírgula), `instituicoes`, `tipo` (tipologia do OpenAlex) e `ano`.
+
+## 05_bibliometria_resumo.csv
+
+Totais por área do veículo, país de afiliação e instituição, no formato `agrupamento; categoria; estudos`.

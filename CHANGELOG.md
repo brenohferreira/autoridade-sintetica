@@ -1,7 +1,14 @@
 # Registro de alterações
+## 1.4.0 — 12 de novembro de 2026
+Acréscimo da análise bibliométrica do corpus.
+- A figura 2 passou a ter dois painéis: a distribuição temporal dos 3.391 registros triados e a distribuição dos 80 estudos incluídos por área do conhecimento do veículo.
+- A planilha auditável ganhou a aba 8_Bibliometria, com área, veículo, país de afiliação, instituição e tipo de publicação.
+- Inclusão de `dados/05_bibliometria.csv` (um registro por estudo) e de `dados/05_bibliometria_resumo.csv` (totais agregados).
+- Registro de que 70 estudos tiveram afiliação recuperada no OpenAlex, distribuída por 29 países, e de que nenhum dos 80 provém de instituição brasileira.
+- Correção do percentual de 2025-2026 no texto do artigo, de 70,6% para 70,4%, conforme o denominador de 3.391 registros.
 ## 1.3.0 — 12 de novembro de 2026
 Correção dos números do corpus e das figuras.
-- A figura 2 passou a ser calculada sobre os 3.391 registros únicos do corpus completo, e não sobre os 1.227 registros das bases bibliográficas, com a distribuição de 2.388 registros (70,6%) em 2025-2026, 701 (20,7%) em 2020-2024 e 295 (8,7%) antes de 2020.
+- A figura 2 passou a ser calculada sobre os 3.391 registros únicos do corpus completo, e não sobre os 1.227 registros das bases bibliográficas, com a distribuição de 2.388 registros (70,4%) em 2025-2026, 701 (20,7%) em 2020-2024 e 295 (8,7%) antes de 2020.
 - A contagem de preprints foi refeita sobre o corpus completo, com 223 registros (6,6%), dos quais 91 em Zenodo, 78 em SSRN e 29 em arXiv.
 - A figura 1 recebeu redação que descreve a remoção das 649 duplicatas sem ordenar as fontes no tempo.
 - A aba de fluxo da planilha auditável identifica as colunas pelo nome das bases, e o leia-me da planilha deixou de se referir a bases anteriores.
