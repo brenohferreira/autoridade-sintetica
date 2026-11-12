@@ -28,6 +28,10 @@ Este repositório reúne o artigo, o protocolo, os dados e os scripts de uma rev
 
 Foram identificados 4.040 registros: 1.239 na OpenAlex (oito consultas), 2.567 na Web of Science Core Collection (oito consultas), 49 na BRAPCI (nove consultas), 80 no Google Acadêmico, 106 por rastreamento de citações e 19 por busca nominal dirigida. Após a remoção de 649 duplicatas, restaram 3.391 registros únicos; a triagem por título e resumo excluiu 3.311 registros, o que resultou em 80 estudos incluídos, publicados entre 1983 e 2026, dos quais 35 tiveram o texto completo examinado e 45 foram incorporados a partir do resumo. A expressão exata *synthetic authority* não retornou nenhum registro na Web of Science, o que sustenta a leitura de que o rótulo é incipiente.
 
+## Autoria
+
+**Breno Heleno Ferreira** é doutorando em Ciência da Informação pela Universidade Federal de Minas Gerais, mestre em Educação e Docência pela mesma instituição, com MBAs em Data Science e Analytics e em Gestão de Projetos pela USP. Contato: brenohferreira@ufmg.br. Currículo: http://lattes.cnpq.br/5720093855838869. GitHub: https://github.com/brenohferreira.
+
 ## Como citar
 
 A citação do repositório está descrita no arquivo `CITATION.cff`. Enquanto o depósito não receber um identificador persistente, use:

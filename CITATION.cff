@@ -10,8 +10,10 @@ abstract: >-
   página e os scripts de análise.
 authors:
   - family-names: "Ferreira"
-    given-names: "Breno"
-    affiliation: "Instituição"
+    given-names: "Breno Heleno"
+    affiliation: "Universidade Federal de Minas Gerais"
+    email: "brenohferreira@ufmg.br"
+    website: "http://lattes.cnpq.br/5720093855838869"
 version: 1.1.0
 date-released: 2026-11-12
 license: CC-BY-4.0
