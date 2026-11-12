@@ -12,7 +12,7 @@ authors:
   - family-names: "Ferreira"
     given-names: "Breno"
     affiliation: "Instituição"
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-11-12
 license: CC-BY-4.0
 repository-code: "https://github.com/brenohferreira/autoridade-sintetica"
