@@ -44,7 +44,7 @@ A revisão seguiu a metodologia do JBI e as orientações de relato do PRISMA-Sc
 
 ## Números da revisão
 
-Foram identificados 4.040 registros: 1.239 na OpenAlex, 2.567 na Web of Science Core Collection, 49 na BRAPCI, 80 no Google Acadêmico, 106 por rastreamento de citações e 19 por busca nominal dirigida. Após a remoção de 649 duplicatas, restaram 3.391 registros únicos, e a triagem excluiu 3.311, o que resultou em 80 estudos incluídos, publicados entre 1983 e 2026, dos quais 35 tiveram o texto completo examinado e 45 foram incorporados a partir do resumo. A expressão exata *synthetic authority* não retornou nenhum registro na Web of Science.
+Foram identificados 4.040 registros: 1.219 na OpenAlex, 2.567 na Web of Science Core Collection, 49 na BRAPCI, 80 no Google Acadêmico, 106 por rastreamento de citações e 19 por busca nominal dirigida. Após a remoção de 649 duplicatas, restaram 3.391 registros únicos, e a triagem excluiu 3.311, o que resultou em 80 estudos incluídos, publicados entre 1983 e 2026, dos quais 35 tiveram o texto completo examinado e 45 foram incorporados a partir do resumo. A expressão exata *synthetic authority* não retornou nenhum registro na Web of Science. Dos 3.391 registros únicos, 2.388 (70,6%) foram publicados em 2025 ou 2026, 701 (20,7%) entre 2020 e 2024 e 295 (8,7%) antes de 2020, e 223 (6,6%) provêm de repositórios de preprint.
 
 ## Reprodutibilidade
 
@@ -56,6 +56,7 @@ python scripts/harvest.py        # coleta nas bases e registro das consultas
 python scripts/triagem.py        # deduplicação e triagem de primeiro nível
 python scripts/verificar.py      # conferência de metadados no Crossref
 python scripts/gerar_xlsx.py     # planilha auditável
+python scripts/estat_corpus.py   # distribuição por ano do corpus completo (figura 2)
 python scripts/figuras.py        # figuras 1 e 2
 ```
 

@@ -1,4 +1,12 @@
 # Registro de alterações
+## 1.3.0 — 12 de novembro de 2026
+Correção dos números do corpus e das figuras.
+- A figura 2 passou a ser calculada sobre os 3.391 registros únicos do corpus completo, e não sobre os 1.227 registros das bases bibliográficas, com a distribuição de 2.388 registros (70,6%) em 2025-2026, 701 (20,7%) em 2020-2024 e 295 (8,7%) antes de 2020.
+- A contagem de preprints foi refeita sobre o corpus completo, com 223 registros (6,6%), dos quais 91 em Zenodo, 78 em SSRN e 29 em arXiv.
+- A figura 1 recebeu redação que descreve a remoção das 649 duplicatas sem ordenar as fontes no tempo.
+- A aba de fluxo da planilha auditável identifica as colunas pelo nome das bases, e o leia-me da planilha deixou de se referir a bases anteriores.
+- Acréscimo de `dados/02_triagem/estatisticas_corpus_completo.json` e de `scripts/estat_corpus.py`, que regera esse arquivo a partir dos dois conjuntos de registros.
+- Correção do total da OpenAlex no README, de 1.239 para 1.219 registros, que é o valor compatível com os 4.040 registros identificados.
 
 ## 1.2.0 — 12 de novembro de 2026
 

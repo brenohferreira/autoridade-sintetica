@@ -53,6 +53,8 @@ Conjunto após deduplicação por identificador digital e por similaridade de t�
 
 Distribuição dos registros únicos por ano, total de registros e contagem por repositório de preprint (Zenodo, SSRN, arXiv, ResearchGate).
 
+## `02_triagem/estatisticas_corpus_completo.json`
+Distribuição por ano dos 3.391 registros únicos do corpus completo, isto é, a união dos registros das bases bibliográficas com os registros novos da Web of Science, com total de registros, registros sem ano e contagem de preprints. É o arquivo lido pela figura 2 e pode ser regerado por `scripts/estat_corpus.py`.
 ## `02_triagem/candidatos_avaliados.csv`
 
 Registros que passaram à avaliação de texto completo ou resumo, com a decisão de triagem.

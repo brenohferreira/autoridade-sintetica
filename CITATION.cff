@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+cff-version: 1.3.0
 message: "Se utilizar este material, cite como indicado abaixo."
 title: "Autoridade sintética na IA generativa e explicabilidade como direito: uma revisão de escopo"
 abstract: >-
@@ -14,7 +14,7 @@ authors:
     affiliation: "Universidade Federal de Minas Gerais"
     email: "brenohferreira@ufmg.br"
     website: "http://lattes.cnpq.br/5720093855838869"
-version: 1.2.0
+version: 1.3.0
 date-released: 2026-11-12
 license: CC-BY-4.0
 repository-code: "https://github.com/brenohferreira/autoridade-sintetica"
