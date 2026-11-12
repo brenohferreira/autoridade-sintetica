@@ -5,7 +5,7 @@ abstract: >-
   Revisão de escopo, conduzida conforme a metodologia do JBI e as orientações de relato do
   PRISMA-ScR, sobre a autoridade que os usuários atribuem à inteligência artificial generativa
   e sobre as condições em que a explicabilidade permite examinar e contestar suas respostas.
-  O depósito reúne o artigo, o protocolo, as expressões de busca com os totais por consulta,
+  O depósito reúne o protocolo, as expressões de busca com os totais por consulta,
   os registros recuperados, as decisões de triagem, a matriz de extração com localizadores de
   página e os scripts de análise.
 authors:
@@ -14,7 +14,7 @@ authors:
     affiliation: "Universidade Federal de Minas Gerais"
     email: "brenohferreira@ufmg.br"
     website: "http://lattes.cnpq.br/5720093855838869"
-version: 1.1.0
+version: 1.2.0
 date-released: 2026-11-12
 license: CC-BY-4.0
 repository-code: "https://github.com/brenohferreira/autoridade-sintetica"
