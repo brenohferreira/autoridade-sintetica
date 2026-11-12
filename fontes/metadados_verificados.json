@@ -1,0 +1,773 @@
+{
+ "hirvonen2025": {
+  "doi": "10.1002/asi.24942",
+  "title": "Cognitive authority: A scoping review of empirical research. An Annual Review of Information Science and Technology (ARIST) paper",
+  "authors": [
+   "Hirvonen, Noora",
+   "Multas, Anna‐Maija",
+   "Nygård, Tuula",
+   "Huotari, Maija‐Leena"
+  ],
+  "year": 2024,
+  "container": "Journal of the Association for Information Science and Technology",
+  "volume": "76",
+  "issue": "1",
+  "page": "155-192",
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "savolainen2021": {
+  "doi": "10.1515/libri-2020-0128",
+  "title": "Cognitive Authority as an Instance of Informational and Expert Power",
+  "authors": [
+   "Savolainen, Reijo"
+  ],
+  "year": 2021,
+  "container": "Libri",
+  "volume": "72",
+  "issue": "1",
+  "page": "1-12",
+  "publisher": "Walter de Gruyter GmbH",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "rieh2002": {
+  "doi": "10.1002/asi.10017",
+  "title": "Judgment of information quality and cognitive authority in the Web",
+  "authors": [
+   "Rieh, Soo Young"
+  ],
+  "year": 2001,
+  "container": "Journal of the American Society for Information Science and Technology",
+  "volume": "53",
+  "issue": "2",
+  "page": "145-161",
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "mckenzie2003": {
+  "doi": "10.1086/603418",
+  "title": "Justifying Cognitive Authority Decisions: Discursive Strategies of Information Seekers",
+  "authors": [],
+  "year": 2003,
+  "container": "The Library Quarterly",
+  "volume": "73",
+  "issue": "3",
+  "page": "261-288",
+  "publisher": "University of Chicago Press",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "ferrario2024": {
+  "doi": "10.1007/s11023-024-09681-1",
+  "title": "Experts or Authorities? The Strange Case of the Presumed Epistemic Superiority of Artificial Intelligence Systems",
+  "authors": [
+   "Ferrario, Andrea",
+   "Facchini, Alessandro",
+   "Termine, Alberto"
+  ],
+  "year": 2024,
+  "container": "Minds and Machines",
+  "volume": "34",
+  "issue": "3",
+  "page": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "article_number": "30"
+ },
+ "milella2026": {
+  "doi": "10.3390/make8020036",
+  "title": "Perceiving AI as an Epistemic Authority or Algority: A User Study on the Human Attribution of Authority to AI",
+  "authors": [
+   "Milella, Frida",
+   "Cabitza, Federico"
+  ],
+  "year": 2026,
+  "container": "Machine Learning and Knowledge Extraction",
+  "volume": "8",
+  "issue": "2",
+  "page": "36",
+  "publisher": "MDPI AG",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "wachter2017": {
+  "doi": "10.1093/idpl/ipx009",
+  "title": "The rise of cybersecurity and its impact on data protection",
+  "authors": [
+   "Kuner, Christopher",
+   "Svantesson, Dan Jerker B.",
+   "H. Cate, Fred",
+   "Lynskey, Orla",
+   "Millard, Christopher"
+  ],
+  "year": 2017,
+  "container": "International Data Privacy Law",
+  "volume": "7",
+  "issue": "2",
+  "page": "73-75",
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "miller2019": {
+  "doi": "10.1016/j.artint.2018.07.007",
+  "title": "Explanation in artificial intelligence: Insights from the social sciences",
+  "authors": [
+   "Miller, Tim"
+  ],
+  "year": 2019,
+  "container": "Artificial Intelligence",
+  "volume": "267",
+  "issue": null,
+  "page": "1-38",
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "bansal2021": {
+  "doi": "10.1145/3411764.3445717",
+  "title": "Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance",
+  "authors": [
+   "Bansal, Gagan",
+   "Wu, Tongshuang",
+   "Zhou, Joyce",
+   "Fok, Raymond",
+   "Nushi, Besmira",
+   "Kamar, Ece",
+   "Ribeiro, Marco Tulio",
+   "Weld, Daniel"
+  ],
+  "year": 2021,
+  "container": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "volume": null,
+  "issue": null,
+  "page": "1-16",
+  "publisher": "ACM",
+  "type": "proceedings-article",
+  "article_number": null
+ },
+ "bucinca2021": {
+  "doi": "10.1145/3449287",
+  "title": "To Trust or to Think",
+  "authors": [
+   "Buçinca, Zana",
+   "Malaya, Maja Barbara",
+   "Gajos, Krzysztof Z."
+  ],
+  "year": 2021,
+  "container": "Proceedings of the ACM on Human-Computer Interaction",
+  "volume": "5",
+  "issue": "CSCW1",
+  "page": "1-21",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "vasconcelos2023": {
+  "doi": "10.1145/3579605",
+  "title": "Explanations Can Reduce Overreliance on AI Systems During Decision-Making",
+  "authors": [
+   "Vasconcelos, Helena",
+   "Jörke, Matthew",
+   "Grunde-McLaughlin, Madeleine",
+   "Gerstenberg, Tobias",
+   "Bernstein, Michael S.",
+   "Krishna, Ranjay"
+  ],
+  "year": 2023,
+  "container": "Proceedings of the ACM on Human-Computer Interaction",
+  "volume": "7",
+  "issue": "CSCW1",
+  "page": "1-38",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "goddard2012": {
+  "doi": "10.1136/amiajnl-2011-000089",
+  "title": "Automation bias: a systematic review of frequency, effect mediators, and mitigators",
+  "authors": [
+   "Goddard, Kate",
+   "Roudsari, Abdul",
+   "Wyatt, Jeremy C"
+  ],
+  "year": 2012,
+  "container": "Journal of the American Medical Informatics Association",
+  "volume": "19",
+  "issue": "1",
+  "page": "121-127",
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "kasneci2023": {
+  "doi": "10.1016/j.lindif.2023.102274",
+  "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+  "authors": [
+   "Kasneci, Enkelejda",
+   "Sessler, Kathrin",
+   "Küchemann, Stefan",
+   "Bannert, Maria",
+   "Dementieva, Daryna",
+   "Fischer, Frank",
+   "Gasser, Urs",
+   "Groh, Georg",
+   "Günnemann, Stephan",
+   "Hüllermeier, Eyke",
+   "Krusche, Stephan",
+   "Kutyniok, Gitta",
+   "Michaeli, Tilman",
+   "Nerdel, Claudia",
+   "Pfeffer, Jürgen",
+   "Poquet, Oleksandra",
+   "Sailer, Michael",
+   "Schmidt, Albrecht",
+   "Seidel, Tina",
+   "Stadler, Matthias",
+   "Weller, Jochen",
+   "Kuhn, Jochen",
+   "Kasneci, Gjergji"
+  ],
+  "year": 2023,
+  "container": "Learning and Individual Differences",
+  "volume": "103",
+  "issue": null,
+  "page": "102274",
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "article_number": "102274"
+ },
+ "startari2025": {
+  "doi": "10.2139/ssrn.5258399",
+  "title": "Artificial Intelligence and Synthetic Authority: An Impersonal Grammar of Power",
+  "authors": [
+   "Startari, Agustin V."
+  ],
+  "year": 2025,
+  "container": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "publisher": "Elsevier BV",
+  "type": "posted-content",
+  "article_number": null
+ },
+ "palese2026": {
+  "doi": "10.3390/soc16030102",
+  "title": "Artificial Truth: Algorithmic Power, Epistemic Authority, and the Crisis of Democratic Knowledge",
+  "authors": [
+   "Palese, Rosario"
+  ],
+  "year": 2026,
+  "container": "Societies",
+  "volume": "16",
+  "issue": "3",
+  "page": "102",
+  "publisher": "MDPI AG",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "shin2026": {
+  "doi": "10.1007/s00146-025-02560-y",
+  "title": "Automating epistemology: how AI reconfigures truth, authority, and verification",
+  "authors": [
+   "Shin, Donghee"
+  ],
+  "year": 2025,
+  "container": "AI &amp; SOCIETY",
+  "volume": "41",
+  "issue": "2",
+  "page": "1553-1559",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "hauswald2025": {
+  "doi": "10.1080/02691728.2025.2449602",
+  "title": "Artificial Epistemic Authorities",
+  "authors": [
+   "Hauswald, Rico"
+  ],
+  "year": 2025,
+  "container": "Social Epistemology",
+  "volume": "39",
+  "issue": "6",
+  "page": "716-725",
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "keymolen2022": {
+  "doi": "10.1007/s10676-022-09671-w",
+  "title": "Correction to: the Ethics of AI in Human Resources",
+  "authors": [
+   "Dennis, Matthew J",
+   "Aizenberg, Evgeni"
+  ],
+  "year": 2023,
+  "container": "Ethics and Information Technology",
+  "volume": "25",
+  "issue": "1",
+  "page": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "article_number": "1"
+ },
+ "nannini2024": {
+  "doi": "10.1609/aies.v7i1.31700",
+  "title": "Habemus a Right to an Explanation: so What? – A Framework on Transparency-Explainability Functionality and Tensions in the EU AI Act",
+  "authors": [
+   "Nannini, Luca"
+  ],
+  "year": 2024,
+  "container": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
+  "volume": "7",
+  "issue": null,
+  "page": "1023-1035",
+  "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "zawacki2019": {
+  "doi": "10.1186/s41239-019-0171-0",
+  "title": "Systematic review of research on artificial intelligence applications in higher education – where are the educators?",
+  "authors": [
+   "Zawacki-Richter, Olaf",
+   "Marín, Victoria I.",
+   "Bond, Melissa",
+   "Gouverneur, Franziska"
+  ],
+  "year": 2019,
+  "container": "International Journal of Educational Technology in Higher Education",
+  "volume": "16",
+  "issue": "1",
+  "page": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "article_number": "39"
+ },
+ "perkins2023": {
+  "doi": "10.1007/s40979-023-00127-2",
+  "title": "Engaging upper secondary school pupils with integrity and source criticism",
+  "authors": [
+   "Premat, Christophe"
+  ],
+  "year": 2023,
+  "container": "International Journal for Educational Integrity",
+  "volume": "19",
+  "issue": "1",
+  "page": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "article_number": "5"
+ },
+ "cotton2024": {
+  "doi": "10.1080/14703297.2023.2190148",
+  "title": "Chatting and cheating: Ensuring academic integrity in the era of ChatGPT",
+  "authors": [
+   "Cotton, Debby R. E.",
+   "Cotton, Peter A.",
+   "Shipway, J. Reuben"
+  ],
+  "year": 2023,
+  "container": "Innovations in Education and Teaching International",
+  "volume": "61",
+  "issue": "2",
+  "page": "228-239",
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "bearman2023": {
+  "doi": "10.1007/s10734-022-00937-2",
+  "title": "Discourses of artificial intelligence in higher education: a critical literature review",
+  "authors": [
+   "Bearman, Margaret",
+   "Ryan, Juliana",
+   "Ajjawi, Rola"
+  ],
+  "year": 2022,
+  "container": "Higher Education",
+  "volume": "86",
+  "issue": "2",
+  "page": "369-385",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "selbst2018": {
+  "doi": "10.2139/ssrn.3126971",
+  "title": "The Intuitive Appeal of Explainable Machines",
+  "authors": [
+   "Selbst, Andrew D.",
+   "Barocas, Solon"
+  ],
+  "year": 2018,
+  "container": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "publisher": "Elsevier BV",
+  "type": "posted-content",
+  "article_number": null
+ },
+ "lipton2018": {
+  "doi": "10.1145/3233231",
+  "title": "The mythos of model interpretability",
+  "authors": [
+   "Lipton, Zachary C."
+  ],
+  "year": 2018,
+  "container": "Communications of the ACM",
+  "volume": "61",
+  "issue": "10",
+  "page": "36-43",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "rudin2019": {
+  "doi": "10.1038/s42256-019-0048-x",
+  "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+  "authors": [
+   "Rudin, Cynthia"
+  ],
+  "year": 2019,
+  "container": "Nature Machine Intelligence",
+  "volume": "1",
+  "issue": "5",
+  "page": "206-215",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "logg2019": {
+  "doi": "10.1016/j.obhdp.2019.01.002",
+  "title": "Stake size effects in ultimatum game and dictator game offers: A meta-analysis",
+  "authors": [
+   "Larney, Andrea",
+   "Rotella, Amanda",
+   "Barclay, Pat"
+  ],
+  "year": 2019,
+  "container": "Organizational Behavior and Human Decision Processes",
+  "volume": "151",
+  "issue": null,
+  "page": "61-72",
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "parasuraman1997": {
+  "doi": "10.1518/001872097778543886",
+  "title": "Humans and Automation: Use, Misuse, Disuse, Abuse",
+  "authors": [
+   "Parasuraman, Raja",
+   "Riley, Victor"
+  ],
+  "year": 1997,
+  "container": "Human Factors: The Journal of the Human Factors and Ergonomics Society",
+  "volume": "39",
+  "issue": "2",
+  "page": "230-253",
+  "publisher": "SAGE Publications",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "lee2004": {
+  "doi": "10.1518/hfes.46.1.50_30392",
+  "title": "Trust in Automation: Designing for Appropriate Reliance",
+  "authors": [
+   "Lee, J. D.",
+   "See, K. A."
+  ],
+  "year": 2004,
+  "container": "Human Factors: The Journal of the Human Factors and Ergonomics Society",
+  "volume": "46",
+  "issue": "1",
+  "page": "50-80",
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "skitka1999": {
+  "doi": "10.1006/ijhc.1999.0252",
+  "title": "Does automation bias decision-making?",
+  "authors": [
+   "SKITKA, LINDA J.",
+   "MOSIER, KATHLEEN L.",
+   "BURDICK, MARK"
+  ],
+  "year": 1999,
+  "container": "International Journal of Human-Computer Studies",
+  "volume": "51",
+  "issue": "5",
+  "page": "991-1006",
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "dzindolet2003": {
+  "doi": "10.1016/S1071-5819(03)00038-7",
+  "title": "The role of trust in automation reliance",
+  "authors": [
+   "Dzindolet, Mary T.",
+   "Peterson, Scott A.",
+   "Pomranky, Regina A.",
+   "Pierce, Linda G.",
+   "Beck, Hall P."
+  ],
+  "year": 2003,
+  "container": "International Journal of Human-Computer Studies",
+  "volume": "58",
+  "issue": "6",
+  "page": "697-718",
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "goldman2001": {
+  "doi": "10.1111/j.1933-1592.2001.tb00094.x",
+  "title": "Donnellan on Neptune*",
+  "authors": [
+   "JESHION, ROBIN"
+  ],
+  "year": 2001,
+  "container": "Philosophy and Phenomenological Research",
+  "volume": "63",
+  "issue": "1",
+  "page": "111-135",
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "hardwig1985": {
+  "doi": "10.2307/2026523",
+  "title": "Epistemic Dependence",
+  "authors": [
+   "Hardwig, John"
+  ],
+  "year": 1985,
+  "container": "The Journal of Philosophy",
+  "volume": "82",
+  "issue": "7",
+  "page": "335",
+  "publisher": "Philosophy Documentation Center",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "hjorland2002": {
+  "doi": "10.1002/asi.10042",
+  "title": "Epistemology and the socio‐cognitive perspective in information science",
+  "authors": [
+   "Hjørland, Birger"
+  ],
+  "year": 2002,
+  "container": "Journal of the American Society for Information Science and Technology",
+  "volume": "53",
+  "issue": "4",
+  "page": "257-270",
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "fricker2007": {
+  "doi": "10.1093/acprof:oso/9780198237907.001.0001",
+  "title": "Epistemic Injustice",
+  "authors": [
+   "Fricker, Miranda"
+  ],
+  "year": 2007,
+  "container": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "publisher": "Oxford University PressOxford",
+  "type": "book",
+  "article_number": null
+ },
+ "zagzebski2012": {
+  "doi": "10.1093/acprof:oso/9780199936472.001.0001",
+  "title": "Epistemic Authority",
+  "authors": [
+   "Zagzebski, Linda Trinkaus"
+  ],
+  "year": 2012,
+  "container": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "publisher": "Oxford University Press",
+  "type": "monograph",
+  "article_number": null
+ },
+ "flanagin2007": {
+  "doi": "10.1177/1461444807076972",
+  "title": "Interactive online journals and individualization",
+  "authors": [
+   "Hodkinson, Paul"
+  ],
+  "year": 2007,
+  "container": "New Media &amp; Society",
+  "volume": "9",
+  "issue": "4",
+  "page": "625-650",
+  "publisher": "SAGE Publications",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "rieh2007": {
+  "doi": "10.1002/aris.2007.1440410114",
+  "title": "Credibility: A multidisciplinary framework",
+  "authors": [
+   "Rieh, Soo Young",
+   "Danielson, David R."
+  ],
+  "year": 2007,
+  "container": "Annual Review of Information Science and Technology",
+  "volume": "41",
+  "issue": "1",
+  "page": "307-364",
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "sundar2019": {
+  "doi": "10.1145/3290607.3299038",
+  "title": "From the Lab to the OB Truck",
+  "authors": [
+   "Röggla, Thomas",
+   "Li, Jie",
+   "Fjellsten, Stefan",
+   "Jansen, Jack",
+   "Kegel, Ian",
+   "Pilgrim, Luke",
+   "Trimby, Martin",
+   "Williams, Doug",
+   "Cesar, Pablo"
+  ],
+  "year": 2019,
+  "container": "Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems",
+  "volume": null,
+  "issue": null,
+  "page": "1-8",
+  "publisher": "ACM",
+  "type": "proceedings-article",
+  "article_number": null
+ },
+ "mittelstadt2016": {
+  "doi": "10.1177/2053951716679679",
+  "title": "The ethics of algorithms: Mapping the debate",
+  "authors": [
+   "Mittelstadt, Brent Daniel",
+   "Allo, Patrick",
+   "Taddeo, Mariarosaria",
+   "Wachter, Sandra",
+   "Floridi, Luciano"
+  ],
+  "year": 2016,
+  "container": "Big Data &amp; Society",
+  "volume": "3",
+  "issue": "2",
+  "page": null,
+  "publisher": "SAGE Publications",
+  "type": "journal-article",
+  "article_number": "2053951716679679"
+ },
+ "goodman2017": {
+  "doi": "10.1609/aimag.v38i3.2741",
+  "title": "European Union Regulations on Algorithmic Decision Making and a “Right to Explanation”",
+  "authors": [
+   "Goodman, Bryce",
+   "Flaxman, Seth"
+  ],
+  "year": 2017,
+  "container": "AI Magazine",
+  "volume": "38",
+  "issue": "3",
+  "page": "50-57",
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "holmes2022": {
+  "doi": "10.1007/s40593-021-00239-1",
+  "title": "Ethics of AI in Education: Towards a Community-Wide Framework",
+  "authors": [
+   "Holmes, Wayne",
+   "Porayska-Pomsta, Kaska",
+   "Holstein, Ken",
+   "Sutherland, Emma",
+   "Baker, Toby",
+   "Shum, Simon Buckingham",
+   "Santos, Olga C.",
+   "Rodrigo, Mercedes T.",
+   "Cukurova, Mutlu",
+   "Bittencourt, Ig Ibert",
+   "Koedinger, Kenneth R."
+  ],
+  "year": 2022,
+  "container": "International Journal of Artificial Intelligence in Education",
+  "volume": "32",
+  "issue": "3",
+  "page": "504-526",
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "akgun2022": {
+  "doi": "10.1007/s43681-021-00096-7",
+  "title": "Artificial intelligence in education: Addressing ethical challenges in K-12 settings",
+  "authors": [
+   "Akgun, Selin",
+   "Greenhow, Christine"
+  ],
+  "year": 2021,
+  "container": "AI and Ethics",
+  "volume": "2",
+  "issue": "3",
+  "page": "431-440",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "williamson2020": {
+  "doi": "10.1080/17439884.2020.1694945",
+  "title": "What’s next for Ed-Tech? Critical hopes and concerns for the 2020s",
+  "authors": [
+   "Selwyn, Neil",
+   "Hillman, Thomas",
+   "Eynon, Rebecca",
+   "Ferreira, Giselle",
+   "Knox, Jeremy",
+   "Macgilchrist, Felicitas",
+   "Sancho-Gil, Juana M."
+  ],
+  "year": 2019,
+  "container": "Learning, Media and Technology",
+  "volume": "45",
+  "issue": "1",
+  "page": "1-6",
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "article_number": null
+ },
+ "gadzinski2026": {
+  "doi": "10.1007/s10676-026-09890-5",
+  "title": "A Trade-off worth making: internet fragmentation and digital sovereignty",
+  "authors": [
+   "Robbins, Scott"
+  ],
+  "year": 2026,
+  "container": "Ethics and Information Technology",
+  "volume": "28",
+  "issue": "1",
+  "page": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "article_number": "15"
+ }
+}

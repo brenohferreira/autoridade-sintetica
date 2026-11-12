@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Se utilizar este material, cite como indicado abaixo."
+title: "Autoridade sintética na IA generativa e explicabilidade como direito: uma revisão de escopo"
+abstract: >-
+  Revisão de escopo, conduzida conforme a metodologia do JBI e as orientações de relato do
+  PRISMA-ScR, sobre a autoridade que os usuários atribuem à inteligência artificial generativa
+  e sobre as condições em que a explicabilidade permite examinar e contestar suas respostas.
+  O depósito reúne o artigo, o protocolo, as expressões de busca com os totais por consulta,
+  os registros recuperados, as decisões de triagem, a matriz de extração com localizadores de
+  página e os scripts de análise.
+authors:
+  - family-names: "Ferreira"
+    given-names: "Breno"
+    affiliation: "Instituição"
+version: 1.0.0
+date-released: 2026-11-12
+license: CC-BY-4.0
+repository-code: "https://github.com/brenohferreira/autoridade-sintetica"
+keywords:
+  - autoridade cognitiva
+  - autoridade epistêmica
+  - autoridade sintética
+  - inteligência artificial generativa
+  - explicabilidade
+  - direito à explicação
+  - revisão de escopo
+  - ciência aberta
