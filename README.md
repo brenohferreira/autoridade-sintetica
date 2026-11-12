@@ -1,63 +1,54 @@
 # Autoridade sintética na IA generativa e explicabilidade como direito
 
-**Dados, protocolo e scripts de uma revisão de escopo**
+Este repositório reúne os dados, o protocolo e os scripts produzidos para a revisão de escopo sobre a autoridade que os usuários atribuem à inteligência artificial generativa e sobre as condições em que a explicabilidade permite examinar e contestar suas respostas. O texto do artigo não é redistribuído aqui.
 
-Este repositório reúne os dados, o protocolo e os scripts de uma revisão de escopo sobre a autoridade que os usuários atribuem à inteligência artificial generativa e sobre as condições em que a explicabilidade permite examinar e contestar suas respostas. O depósito não inclui o texto do artigo, que circula separadamente, e foi organizado para permitir que qualquer pessoa refaça o percurso, verifique as decisões de triagem e reutilize a matriz de extração.
+## Objetivo
 
-- **Versão:** 1.2.0 (12 de novembro de 2026)
-- **Licença dos dados e do protocolo:** CC BY 4.0
-- **Licença dos scripts:** MIT
-- **Idioma:** português brasileiro
+Compreender como a literatura sobre autoridade cognitiva e autoridade epistêmica permite interpretar a autoridade atribuída à IA generativa e em que condições a explicabilidade possibilita examinar e contestar suas respostas, distinguindo o que o usuário efetivamente faz ao tratar uma resposta como razão daquilo que tornaria essa atribuição justificada.
 
-## O que está depositado
+## Estrutura do Repositório
 
-| Pasta | Conteúdo |
-|---|---|
-| `protocolo/` | Protocolo v1.3, com a emenda que incorpora a Web of Science, em DOCX, PDF e Markdown |
-| `dados/01_buscas/` | Expressões exatas, filtros, totais por consulta, registros brutos das bases, rastreamento de citações e os arquivos originais exportados da Web of Science |
-| `dados/01_buscas/wos_bruto/` | As oito exportações da Web of Science Core Collection, no formato de texto da Clarivate, e os registros já convertidos em JSON |
-| `dados/02_triagem/` | Registros únicos após deduplicação, candidatos avaliados, triagem e exclusões da Web of Science e estatísticas do corpus |
-| `dados/03_extracao/` | Matriz de extração com 80 estudos, localizadores de página e uso de cada fonte |
-| `dados/04_planilha/` | Planilha auditável com as abas de buscas, triagem, extração e fluxo |
-| `figuras/` | Diagrama de seleção (PRISMA-ScR) e distribuição temporal, em 300 dpi |
-| `scripts/` | Rotinas de coleta, deduplicação, triagem, verificação de metadados, extração e geração das figuras |
-| `checklist/` | Lista de verificação PRISMA-ScR preenchida, item por item |
-| `fontes/` | Metadados verificados em Crossref e registro dos downloads de textos completos |
+- **dados/01_buscas/**: expressões exatas, filtros, totais por consulta, registros brutos das bases e rastreamento de citações.
+- **dados/01_buscas/wos_bruto/**: as oito exportações originais da Web of Science Core Collection, no formato de texto da Clarivate, e os registros convertidos em JSON.
+- **dados/02_triagem/**: registros únicos após deduplicação, candidatos avaliados, triagem e exclusões da Web of Science e estatísticas do corpus.
+- **dados/03_extracao/**: matriz de extração com os 80 estudos incluídos, localizadores de página e uso de cada fonte.
+- **dados/04_planilha/**: planilha auditável com as abas de buscas, triagem, extração e fluxo.
+- **protocolo/**: protocolo v1.3, redigido antes das buscas definitivas, com a emenda que incorpora a Web of Science, em DOCX, PDF e Markdown.
+- **figuras/**: diagrama de seleção (PRISMA-ScR) e distribuição temporal dos estudos, em 300 dpi.
+- **scripts/**: rotinas de coleta, deduplicação, triagem, verificação de metadados, extração e geração das figuras.
+- **checklist/**: lista de verificação PRISMA-ScR preenchida, item por item.
+- **fontes/**: metadados verificados em Crossref e registro dos downloads de textos completos.
 
-### Arquivos da Web of Science
+## Dados
 
-As exportações originais foram mantidas como saíram da plataforma, em texto delimitado por tabulação, e renomeadas segundo a consulta que as gerou:
+As buscas foram executadas em oito fontes e percursos: OpenAlex, BRAPCI, Google Acadêmico, Web of Science Core Collection, rastreamento de citações a partir de dois estudos-semente e busca nominal dirigida. As expressões, os filtros e os totais de cada consulta estão em `dados/01_buscas/consultas_bases.csv` e, no caso da Web of Science, em `dados/01_buscas/wos_consultas.md`.
 
-| Arquivo | Consulta |
-|---|---|
-| `W01_autoridade_cognitiva.txt` | `TS=("cognitive authority")` |
-| `W01b_autoridade_cognitiva_complemento.txt` | continuação da exportação de W01, dividida em duas partes |
-| `W02_autoridade_epistemica_ia.txt` | autoridade epistêmica combinada com inteligência artificial |
-| `W04_ia_generativa_llm.txt` | IA generativa, modelos de linguagem e autoridade |
-| `W05_direito_a_explicacao.txt` | direito à explicação e explicabilidade |
-| `W06_explicabilidade_educacao.txt` | explicabilidade aplicada à educação |
-| `W07_vies_de_automacao.txt` | viés de automação e confiança excessiva |
-| `W08_heuristica_da_maquina.txt` | heurística da máquina e autoridade sintética |
+As exportações da Web of Science são redistribuídas exatamente como saíram da plataforma, sem edição de conteúdo, e receberam nomes que identificam a consulta de origem:
 
-As expressões completas, com os operadores e os totais de cada consulta, estão em `dados/01_buscas/wos_consultas.md`. O arquivo `registros_parseados.json`, na mesma pasta, contém os mesmos registros convertidos para JSON, com os campos normalizados usados na deduplicação.
+| Arquivo | Registros | Consulta |
+|---|---|---|
+| `W01_autoridade_cognitiva.txt` | 175 | `TS=("cognitive authority")` |
+| `W01b_autoridade_cognitiva_complemento.txt` | parte final de W01 | continuação da exportação anterior, dividida pelo limite da plataforma |
+| `W02_autoridade_epistemica_ia.txt` | 25 | autoridade epistêmica combinada com inteligência artificial |
+| `W04_ia_generativa_llm.txt` | 1.550 | IA generativa, modelos de linguagem e autoridade |
+| `W05_direito_a_explicacao.txt` | 132 | direito à explicação e explicabilidade |
+| `W06_explicabilidade_educacao.txt` | 1.160 | explicabilidade aplicada à educação, exportada em três partes |
+| `W07_vies_de_automacao.txt` | 640 | viés de automação e confiança excessiva |
+| `W08_heuristica_da_maquina.txt` | 480 | heurística da máquina e autoridade sintética |
+
+As consultas ao Google Acadêmico foram feitas por navegador e não podem ser reexecutadas por script, pois a plataforma bloqueia acesso automatizado; por isso, as datas e os totais exibidos ficaram registrados no arquivo de consultas. A busca na Scopus não foi executada, por exigir assinatura própria.
+
+## Metodologia
+
+A revisão seguiu a metodologia do JBI e as orientações de relato do PRISMA-ScR, com protocolo redigido e datado antes das buscas definitivas. Cada base recebeu oito consultas, com expressões exatas entre aspas e campos de busca equivalentes, e a triagem ocorreu em duas etapas: exclusão automática por script, a partir de critérios de escopo declarados no protocolo, e leitura de títulos, resumos e textos completos. A extração registrou, para cada estudo, a linha de investigação, o tipo de evidência, o uso no argumento e o localizador de página quando o texto completo estava disponível.
 
 ## Números da revisão
 
-Foram identificados 4.040 registros: 1.239 na OpenAlex (oito consultas), 2.567 na Web of Science Core Collection (oito consultas), 49 na BRAPCI (nove consultas), 80 no Google Acadêmico, 106 por rastreamento de citações e 19 por busca nominal dirigida. Após a remoção de 649 duplicatas, restaram 3.391 registros únicos; a triagem por título e resumo excluiu 3.311 registros, o que resultou em 80 estudos incluídos, publicados entre 1983 e 2026, dos quais 35 tiveram o texto completo examinado e 45 foram incorporados a partir do resumo. A expressão exata *synthetic authority* não retornou nenhum registro na Web of Science, o que sustenta a leitura de que o rótulo é incipiente.
-
-## Autoria
-
-**Breno Heleno Ferreira** é doutorando em Ciência da Informação pela Universidade Federal de Minas Gerais, mestre em Educação e Docência pela mesma instituição, com MBAs em Data Science e Analytics e em Gestão de Projetos pela USP. Contato: brenohferreira@ufmg.br. Currículo: http://lattes.cnpq.br/5720093855838869. GitHub: https://github.com/brenohferreira.
-
-## Como citar
-
-A citação do repositório está descrita no arquivo `CITATION.cff`. Enquanto o depósito não receber um identificador persistente, use:
-
-> FERREIRA, Breno Heleno. **Autoridade sintética na IA generativa e explicabilidade como direito: dados, protocolo e scripts de uma revisão de escopo**. Versão 1.2.0. 2026. Repositório GitHub. Disponível em: https://github.com/brenohferreira/autoridade-sintetica. Acesso em: [data].
+Foram identificados 4.040 registros: 1.239 na OpenAlex, 2.567 na Web of Science Core Collection, 49 na BRAPCI, 80 no Google Acadêmico, 106 por rastreamento de citações e 19 por busca nominal dirigida. Após a remoção de 649 duplicatas, restaram 3.391 registros únicos, e a triagem excluiu 3.311, o que resultou em 80 estudos incluídos, publicados entre 1983 e 2026, dos quais 35 tiveram o texto completo examinado e 45 foram incorporados a partir do resumo. A expressão exata *synthetic authority* não retornou nenhum registro na Web of Science.
 
 ## Reprodutibilidade
 
-Os scripts foram escritos em Python 3.11 e dependem de `requests`, `beautifulsoup4`, `openpyxl`, `python-docx` e `matplotlib`.
+Os scripts foram escritos em Python 3.11 e dependem de `requests`, `beautifulsoup4`, `openpyxl`, `python-docx` e `matplotlib`. A reprodução das análises pode ser realizada pela execução sequencial dos scripts disponíveis na pasta `scripts/`.
 
 ```bash
 pip install -r requirements.txt
@@ -68,16 +59,26 @@ python scripts/gerar_xlsx.py     # planilha auditável
 python scripts/figuras.py        # figuras 1 e 2
 ```
 
-As consultas ao Google Acadêmico foram feitas por navegador e não podem ser reexecutadas por script, pois a plataforma bloqueia acesso automatizado; por isso, as expressões, as datas e os totais exibidos estão registrados em `dados/01_buscas/consultas_bases.csv`, e os registros recuperados, em `dados/01_buscas/registros_brutos_bases.csv`.
+## Autor
 
-## Limitações declaradas
+**Breno Heleno Ferreira**
 
-A busca na Web of Science foi executada em 12 de novembro de 2026, com acesso institucional, e a busca na Scopus não foi executada por exigir assinatura própria. A triagem foi feita por um revisor, com apoio de script na etapa de exclusão automática, sem dupla triagem independente, e 45 dos 80 estudos foram acessados apenas pelo resumo, hipótese registrada na coluna `acesso` da matriz de extração. O processo contou com apoio de um agente de inteligência artificial para coleta, deduplicação, conferência de metadados e geração das figuras; as decisões de elegibilidade e a redação permaneceram sob responsabilidade do autor.
+Doutorando em Ciência da Informação (UFMG)
+Mestre em Educação e Docência (UFMG)
+MBA em Data Science e Analytics (USP)
+MBA em Gestão de Projetos (USP)
 
-## Licenças
+📧 brenohferreira@ufmg.br
 
-O protocolo, as figuras e as tabelas de dados estão licenciados sob **Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)**, cujo texto integral está em `LICENSE`. Os scripts estão licenciados sob **MIT**, em `LICENSE-CODE`. O uso dos dados exige apenas a atribuição e a indicação de eventuais alterações.
+GitHub: https://github.com/brenohferreira
+Lattes: http://lattes.cnpq.br/5720093855838869
 
-## Como contribuir
+## Como citar
 
-Correções de metadados, identificação de páginas ausentes e sugestões de estudos não recuperados são bem-vindas pela aba *Issues*. Alterações aceitas são registradas em `CHANGELOG.md` e publicadas em nova versão.
+A citação do depósito está descrita no arquivo `CITATION.cff`. Enquanto não houver identificador persistente, use:
+
+> FERREIRA, Breno Heleno. **Autoridade sintética na IA generativa e explicabilidade como direito: dados, protocolo e scripts de uma revisão de escopo**. Versão 1.2.0. 2026. Repositório GitHub. Disponível em: https://github.com/brenohferreira/autoridade-sintetica. Acesso em: [data].
+
+## Licença
+
+Os dados, o protocolo e as figuras estão licenciados sob **Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)**, cujo texto integral está em `LICENSE`. Os scripts estão licenciados sob **MIT**, em `LICENSE-CODE`.
