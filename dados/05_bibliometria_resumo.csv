@@ -1,59 +1,58 @@
 ﻿agrupamento;categoria;estudos
-area do veiculo;Computação e IHC;28
-area do veiculo;Filosofia;10
-area do veiculo;Educação;9
+area do veiculo;Computação e IHC;23
 area do veiculo;Ciência da Informação;8
+area do veiculo;Filosofia;8
 area do veiculo;Comunicação;6
 area do veiculo;Livros e anais;5
-area do veiculo;Gestão e saúde;5
-area do veiculo;Preprints e outros;5
-area do veiculo;Direito;4
-pais de afiliacao;US;25
-pais de afiliacao;GB;11
-pais de afiliacao;CN;5
-pais de afiliacao;DE;4
-pais de afiliacao;ES;4
-pais de afiliacao;AU;4
-pais de afiliacao;CA;3
-pais de afiliacao;FI;2
-pais de afiliacao;IT;2
-pais de afiliacao;TR;2
-pais de afiliacao;NL;2
-pais de afiliacao;AT;2
-pais de afiliacao;HK;2
-pais de afiliacao;DK;1
-pais de afiliacao;HR;1
-pais de afiliacao;CH;1
-pais de afiliacao;AR;1
-pais de afiliacao;UY;1
-pais de afiliacao;PL;1
-pais de afiliacao;VN;1
-pais de afiliacao;BR;1
-pais de afiliacao;PH;1
-pais de afiliacao;MC;1
-pais de afiliacao;IE;1
-pais de afiliacao;EE;1
-pais de afiliacao;LU;1
-pais de afiliacao;MK;1
-pais de afiliacao;IL;1
-pais de afiliacao;PS;1
-instituicao;University of Oxford;5
-instituicao;Stanford University;3
-instituicao;Carnegie Mellon University;3
-instituicao;University College London;3
-instituicao;Tampere University;2
-instituicao;University of Tampere;2
-instituicao;Harvard University;2
-instituicao;University of Washington;2
-instituicao;The Alan Turing Institute;2
-instituicao;Michigan State University;2
-instituicao;Tsinghua University;2
-instituicao;University of Helsinki;1
-instituicao;University of Oulu;1
-instituicao;University of Michigan;1
-instituicao;The Royal School of Library and Information Science;1
-instituicao;University of Arizona;1
-instituicao;Birkbeck, University of London;1
-instituicao;University of London;1
-instituicao;University of California, Santa Barbara;1
-instituicao;University of Osijek;1
+area do veiculo;Gestão e saúde;4
+area do veiculo;Outros veículos;3
+tipo de publicacao;article;44
+tipo de publicacao;conference-paper;6
+tipo de publicacao;book;2
+tipo de publicacao;preprint;2
+tipo de publicacao;;1
+tipo de publicacao;book-chapter;1
+tipo de publicacao;review;1
+veiculo;AI & Society;5
+veiculo;CHI Conference on Human Factors in Computing Systems;3
+veiculo;Journal of the American Society for Information Science and Technology;2
+veiculo;New Media & Society;2
+veiculo;SSRN Electronic Journal;2
+veiculo;Human Factors The Journal of the Human Factors and Ergonomics Society;2
+veiculo;International Journal of Human-Computer Studies;2
+veiculo;Proceedings of the ACM on Human-Computer Interaction;2
+veiculo;Journal of Broadcasting & Electronic Media;2
+veiculo;Westport: Greenwood Press, 1983.;1
+veiculo;Journal of the Association for Information Science and Technology;1
+veiculo;Libri;1
+veiculo;Annual Review of Information Science and Technology;1
+veiculo;The Library Quarterly;1
+veiculo;Philosophy and Phenomenological Research;1
+veiculo;The Journal of Philosophy;1
+veiculo;Oxford University Press eBooks;1
+veiculo;Oxford: Oxford University Press, 2007;1
+veiculo;Communications in computer and information science;1
+veiculo;Minds and Machines;1
+pais;US;20
+pais;GB;5
+pais;CN;4
+pais;CA;3
+pais;FI;2
+pais;DE;2
+pais;IT;2
+pais;TR;2
+pais;ES;2
+pais;HK;2
+pais;DK;1
+pais;HR;1
+pais;CH;1
+pais;AR;1
+pais;UY;1
+pais;NL;1
+pais;PL;1
+pais;AU;1
+pais;IE;1
+pais;AT;1
+pais;EE;1
+pais;IL;1
+pais;PS;1

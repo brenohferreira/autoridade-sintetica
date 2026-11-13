@@ -466,3 +466,7 @@ BUSCAS_GS = [
  dict(fonte="Google Acadêmico", label="G8", expressao='"explicabilidade" "inteligência artificial"', total="≈5.090", examinados=10,
       data="11/11/2026", obs="filtro: desde 1983"),
 ]
+
+from dados_wos import NOVOS_WOS  # noqa: E402
+
+ESTUDOS = ESTUDOS + NOVOS_WOS

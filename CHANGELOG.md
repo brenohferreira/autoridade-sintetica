@@ -1,44 +1,27 @@
 # Registro de alterações
-## 1.4.0 — 12 de novembro de 2026
-Acréscimo da análise bibliométrica do corpus.
-- A figura 2 passou a ter dois painéis: a distribuição temporal dos 3.391 registros triados e a distribuição dos 80 estudos incluídos por área do conhecimento do veículo.
-- A planilha auditável ganhou a aba 8_Bibliometria, com área, veículo, país de afiliação, instituição e tipo de publicação.
-- Inclusão de `dados/05_bibliometria.csv` (um registro por estudo) e de `dados/05_bibliometria_resumo.csv` (totais agregados).
-- Registro de que 70 estudos tiveram afiliação recuperada no OpenAlex, distribuída por 29 países, e de que nenhum dos 80 provém de instituição brasileira.
-- Correção do percentual de 2025-2026 no texto do artigo, de 70,6% para 70,4%, conforme o denominador de 3.391 registros.
-## 1.3.0 — 12 de novembro de 2026
-Correção dos números do corpus e das figuras.
-- A figura 2 passou a ser calculada sobre os 3.391 registros únicos do corpus completo, e não sobre os 1.227 registros das bases bibliográficas, com a distribuição de 2.388 registros (70,4%) em 2025-2026, 701 (20,7%) em 2020-2024 e 295 (8,7%) antes de 2020.
-- A contagem de preprints foi refeita sobre o corpus completo, com 223 registros (6,6%), dos quais 91 em Zenodo, 78 em SSRN e 29 em arXiv.
-- A figura 1 recebeu redação que descreve a remoção das 649 duplicatas sem ordenar as fontes no tempo.
-- A aba de fluxo da planilha auditável identifica as colunas pelo nome das bases, e o leia-me da planilha deixou de se referir a bases anteriores.
-- Acréscimo de `dados/02_triagem/estatisticas_corpus_completo.json` e de `scripts/estat_corpus.py`, que regera esse arquivo a partir dos dois conjuntos de registros.
-- Correção do total da OpenAlex no README, de 1.239 para 1.219 registros, que é o valor compatível com os 4.040 registros identificados.
 
-## 1.2.0 — 12 de novembro de 2026
+Todas as versões do depósito são identificadas por etiqueta no repositório e correspondem a um estado completo dos dados, do protocolo e dos scripts.
 
-O depósito passa a ser exclusivamente de dados.
+## 2.0.0 — 12 de novembro de 2026
 
-- As versões do artigo em DOCX e PDF foram retiradas do repositório; o depósito reúne apenas os dados, o protocolo e os scripts da revisão.
-- Os arquivos exportados da Web of Science foram incorporados como dados originais, em `dados/01_buscas/wos_bruto/`, com nomes que identificam a consulta de origem e um leia-me próprio.
-- Os arquivos de busca e de triagem receberam nomes que distinguem as bases bibliográficas da Web of Science, e a matriz de extração passou a referir os 80 estudos incluídos.
-- A identificação do autor foi completada no `CITATION.cff`, neste registro e na página do projeto.
+Consolidação do depósito no recorte final do artigo: a autoridade atribuída à IA generativa e os limites da explicabilidade.
 
-## 1.1.0 — 12 de novembro de 2026
+- Execução da Web of Science Core Collection, com acesso institucional pelo Portal de Periódicos da CAPES, em sete consultas no campo de tópico, que somaram 1.407 registros e 1.090 novos após deduplicação.
+- Recálculo integral do fluxo de seleção: 2.658 registros identificados, 372 duplicatas removidas, 2.286 registros triados, 2.229 excluídos e 57 estudos incluídos.
+- Substituição do corpus anterior, com nova matriz de extração, novos localizadores de evidência e nova redação das afirmações sustentadas.
+- Bibliometria refeita sobre os 57 estudos: 44 veículos, 23 países de afiliação, 23 estudos em computação e interação humano-computador e nenhum estudo de instituição brasileira.
+- Figuras 1 e 2 refeitas: o diagrama de seleção incorpora as sete consultas da Web of Science e a figura 2 passou a apresentar, em dois painéis, a distribuição temporal dos 2.286 registros únicos e a distribuição por área do conhecimento dos 57 estudos.
+- Protocolo atualizado para a versão 2.0, com o registro das emendas e o quadro de consultas renumerado.
+- Planilha auditável regerada, com as abas de buscas, triagem, extração, fluxo e bibliometria conciliadas com os novos totais.
+- Exportações brutas da Web of Science renumeradas de acordo com as sete consultas efetivas.
 
-- Incorporação das oito consultas à Web of Science Core Collection, com 2.567 registros e 2.164 novos após deduplicação.
-- Correção da consulta W6, que havia recuperado 22 mil registros por erro de sintaxe, e nova exportação com 1.160 registros.
-- Triagem em duas etapas, com script de apoio, e inclusão de 25 estudos, o que levou o corpus a 80 estudos e 4.040 registros identificados.
-- Protocolo atualizado para a versão 1.3, com emenda registrada antes da execução das buscas na Web of Science.
-- Planilha auditável com as abas de buscas e triagem da Web of Science, e figuras refeitas com os novos totais.
-
-## 1.0.0 — 12 de novembro de 2026
+## 1.0.0 — 11 de novembro de 2026
 
 Primeira versão pública do depósito.
 
-- Protocolo v1.0, redigido antes das buscas definitivas.
-- Registro das consultas executadas, com expressões, filtros, datas e totais.
-- 1.227 registros únicos após deduplicação e lista de candidatos avaliados.
+- Protocolo v1.0, redigido e datado antes das buscas definitivas.
+- Registro das consultas executadas em BRAPCI, OpenAlex, Google Acadêmico, rastreamento de citações e busca nominal dirigida, com expressões, filtros, datas e totais.
+- 1.026 registros únicos após deduplicação e lista de candidatos avaliados.
 - Matriz de extração com localizadores de página e uso de cada fonte.
 - Planilha auditável com as abas de buscas, triagem, extração e fluxo.
 - Figuras 1 e 2 em 300 dpi.

@@ -1,6 +1,6 @@
 cff-version: 1.3.0
 message: "Se utilizar este material, cite como indicado abaixo."
-title: "Autoridade sintética na IA generativa e explicabilidade como direito: uma revisão de escopo"
+title: "Autoridade sintética na IA generativa e os limites da explicabilidade: uma revisão de escopo"
 abstract: >-
   Revisão de escopo, conduzida conforme a metodologia do JBI e as orientações de relato do
   PRISMA-ScR, sobre a autoridade que os usuários atribuem à inteligência artificial generativa
@@ -14,7 +14,7 @@ authors:
     affiliation: "Universidade Federal de Minas Gerais"
     email: "brenohferreira@ufmg.br"
     website: "http://lattes.cnpq.br/5720093855838869"
-version: 1.3.0
+version: 2.0.0
 date-released: 2026-11-12
 license: CC-BY-4.0
 repository-code: "https://github.com/brenohferreira/autoridade-sintetica"
@@ -24,6 +24,6 @@ keywords:
   - autoridade sintética
   - inteligência artificial generativa
   - explicabilidade
-  - direito à explicação
+  - contestabilidade
   - revisão de escopo
   - ciência aberta
