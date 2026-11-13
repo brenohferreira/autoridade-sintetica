@@ -2,6 +2,9 @@
 
 Todas as versões do depósito são identificadas por etiqueta no repositório e correspondem a um estado completo dos dados, do protocolo e dos scripts.
 
+## 2.0.1 — 12 de novembro de 2026
+- Figura 1 substituída pela versão final publicada no artigo: fluxograma em funil com os totais por fonte, as 372 duplicatas discriminadas, os 2.229 registros não incluídos, a composição dos 57 estudos e os critérios de exclusão E1 a E6.
+- Nenhuma alteração nos dados, no protocolo ou nos totais; a versão preserva a reconciliação com as abas de triagem e extração da planilha.
 ## 2.0.0 — 12 de novembro de 2026
 
 Consolidação do depósito no recorte final do artigo: a autoridade atribuída à IA generativa e os limites da explicabilidade.
