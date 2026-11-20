@@ -2,6 +2,15 @@
 
 Todas as versões do depósito são identificadas por etiqueta no repositório e correspondem a um estado completo dos dados, do protocolo e dos scripts.
 
+## 2.3.0: 20 de novembro de 2026
+Coleta manual no Portal de Periódicos da CAPES, regra lexical de incorporação e ampliação do corpus de 105 para 125 estudos.
+- Coleta manual na busca avançada do Portal, autenticada pelo acesso remoto da Universidade Federal de Minas Gerais, com doze expressões, de C1 a C6c, e exportação em dezoito arquivos RIS, o que recuperou 1.194 registros declarados e 1.146 exportados.
+- Consolidação com 284 duplicatas internas ao Portal, 514 registros já presentes no corpus e 348 candidatos novos.
+- Triagem em três passos, com 348 candidatos avaliados na pertinência, 135 aprovados, notas de centralidade 3 (96), 2 (28), 1 (9) e 0 (2) e 69 aprovados na decisão final.
+- Regra lexical auditável com três condições cumulativas, aplicada aos 69 aprovados, que reteve 38 registros e incorporou 20 estudos, com prioridade para o eixo de explicabilidade e contestação.
+- Atualização do fluxo para 7.831 registros identificados, 1.654 duplicatas, 6.177 registros únicos, 1.629 lidos por título e resumo e 125 estudos incluídos, com 134 referências.
+- Artigo reescrito na versão 2.3.0 no padrão tipográfico da versão revisada e normalizada, com o Quadro 4 das consultas ao Portal, a renumeração do quadro das três formas de autoridade e as figuras refeitas.
+
 ## 2.2.0: 20 de novembro de 2026
 
 Ampliação de fontes com a execução da Scopus, da LISTA e do Portal de Periódicos da CAPES, a declaração de indisponibilidade da LISA e a ampliação do corpus de 63 para 163 estudos.

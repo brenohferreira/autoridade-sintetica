@@ -1,6 +1,6 @@
 # Autoridade sintética na IA generativa e os limites da explicabilidade
 
-Este repositório reúne os dados, o protocolo, as figuras e os scripts produzidos para a revisão de escopo sobre a autoridade que os usuários atribuem à inteligência artificial generativa e sobre as condições em que a explicabilidade permite examinar e contestar suas respostas. O artigo que sintetiza os resultados é redistribuído na pasta `artigo/`, na versão 2.2.0, em DOCX e PDF, ao lado da emenda ao protocolo que registra a execução das bases incorporadas nesta versão.
+Este repositório reúne os dados, o protocolo, as figuras e os scripts produzidos para a revisão de escopo sobre a autoridade que os usuários atribuem à inteligência artificial generativa e sobre as condições em que a explicabilidade permite examinar e contestar suas respostas. O artigo que sintetiza os resultados é redistribuído na pasta `artigo/`, na versão 2.3.0, em DOCX e PDF, ao lado da emenda ao protocolo que registra a execução das bases incorporadas nesta versão.
 
 ## Objetivo
 
@@ -8,16 +8,17 @@ Compreender como a literatura sobre autoridade cognitiva e autoridade epistêmic
 
 ## Estrutura do Repositório
 
-- **artigo/**: artigo completo na versão 2.2.0, em DOCX e PDF, com as figuras incorporadas e a lista de referências atualizada.
+- **artigo/**: artigo completo na versão 2.3.0, em DOCX e PDF, com as figuras incorporadas e a lista de referências atualizada.
 - **dados/01_buscas/**: expressões exatas, filtros, totais por consulta, registros brutos das bases e rastreamento de citações.
 - **dados/01_buscas/wos_bruto/**: as sete exportações originais da Web of Science Core Collection, no formato de texto da Clarivate, e os registros convertidos em JSON.
 - **dados/01_buscas/bdtd/**, **dados/01_buscas/scopus/**, **dados/01_buscas/lista/** e **dados/01_buscas/capes/**: registros recuperados e quadros de consultas das bases incorporadas nas versões 2.1.0 e 2.2.0, com o total declarado por expressão e o número de registros únicos que permaneceram após a deduplicação interna de cada base.
 - **dados/02_triagem/**: registros únicos após deduplicação, candidatos avaliados, triagem e exclusões da Web of Science, triagem das bases incorporadas na versão 2.2.0 e estatísticas do corpus.
+- **dados/06_capes/**: coleta manual no Portal de Periódicos da CAPES, com os dezoito arquivos RIS, o consolidado dos 1.146 registros exportados, os 348 candidatos com resumo, os três arquivos de triagem, a lista dos 38 elegíveis pela regra lexical, os 20 estudos incorporados e os scripts que aplicam a regra.
 - **dados/03_extracao/**: matriz de extração do corpus inicial, com 57 estudos, localizadores de página e uso de cada fonte, e a relação dos 42 estudos incorporados na versão 2.2.0.
 - **dados/04_planilha/**: planilha auditável com as abas de buscas, buscas das bases novas, triagem, triagem das bases novas, texto completo, extração, estudos incluídos novos, fluxo e bibliometria.
 - **dados/05_bibliometria.csv** e **dados/05_bibliometria_resumo.csv**: veículo, área do conhecimento, país e instituição de afiliação dos estudos do corpus inicial, com os totais agregados.
-- **protocolo/**: protocolo registrado antes das buscas definitivas e emenda de ampliação de fontes na versão 2.2, em DOCX, PDF e Markdown.
-- **figuras/**: diagrama de seleção (PRISMA-ScR) e figura de distribuição temporal e por área do conhecimento, em 300 dpi, refeitos para os totais da versão 2.2.0.
+- **protocolo/**: protocolo registrado antes das buscas definitivas e emenda de ampliação de fontes na versão 2.3, em DOCX, PDF e Markdown.
+- **figuras/**: diagrama de seleção (PRISMA-ScR) e figura de distribuição temporal e por área do conhecimento, em 300 dpi, refeitos para os totais da versão 2.3.0.
 - **scripts/**: rotinas de coleta, deduplicação, triagem, verificação de metadados, extração e geração das figuras.
 - **checklist/**: lista de verificação PRISMA-ScR preenchida, item por item.
 - **fontes/**: metadados verificados em Crossref e registro dos downloads de textos completos.
@@ -60,15 +61,18 @@ A indisponibilidade da LISA decorre da assinatura institucional e não de escolh
 
 ## Metodologia
 
-A revisão seguiu a metodologia do JBI e as orientações de relato do PRISMA-ScR, com protocolo redigido e datado antes das buscas definitivas e emendas registradas a cada ampliação de fontes, na versão 2.2 de 20 de novembro de 2026. Cada base recebeu expressões construídas para as mesmas frentes conceituais, com termos entre aspas e campos de busca equivalentes, e a triagem ocorreu em duas etapas, a saber, exclusão automática por script, a partir dos critérios de escopo declarados no protocolo, e leitura de títulos, resumos e textos completos. A extração registrou, para cada estudo, a linha de investigação, o tipo de evidência, o uso no argumento e o localizador de página quando o texto completo estava disponível.
+A revisão seguiu a metodologia do JBI e as orientações de relato do PRISMA-ScR, com protocolo redigido e datado antes das buscas definitivas e emendas registradas a cada ampliação de fontes, na versão 2.3 de 20 de novembro de 2026. Cada base recebeu expressões construídas para as mesmas frentes conceituais, com termos entre aspas e campos de busca equivalentes, e a triagem ocorreu em duas etapas, a saber, exclusão automática por script, a partir dos critérios de escopo declarados no protocolo, e leitura de títulos, resumos e textos completos. A extração registrou, para cada estudo, a linha de investigação, o tipo de evidência, o uso no argumento e o localizador de página quando o texto completo estava disponível.
 
 ## Números da revisão
 
-Foram identificados 6.745 registros, assim distribuídos: 2.671 na Scopus, 1.407 na Web of Science Core Collection, 1.029 na BDTD, 1.019 na OpenAlex, 327 na LISTA, 106 por rastreamento de citações, 70 no Google Acadêmico, 60 no Portal de Periódicos da CAPES, 48 na BRAPCI e 8 por busca nominal dirigida. Após a remoção de 916 duplicatas, restaram 5.829 registros triados, dos quais 1.281 foram lidos por título e resumo, e a triagem resultou em 105 estudos incluídos, sendo 99 artigos, capítulos e trabalhos em anais e 6 teses e dissertações.
+Foram identificados 7.831 registros, assim distribuídos: 2.671 na Scopus, 1.407 na Web of Science Core Collection, 1.146 no Portal de Periódicos da CAPES, 1.029 na BDTD, 1.019 na OpenAlex, 327 na LISTA, 106 por rastreamento de citações, 70 no Google Acadêmico, 48 na BRAPCI e 8 por busca nominal dirigida. Após a remoção de 1.654 duplicatas, restaram 6.177 registros triados, dos quais 1.629 foram lidos por título e resumo, e a triagem resultou em 125 estudos incluídos, sendo 119 artigos, capítulos e trabalhos em anais e 6 teses e dissertações.
 
-A incorporação das bases novas somou 3.058 registros identificados, com 65 duplicatas entre elas e 344 em relação ao corpus anterior, o que resultou em 2.649 registros novos e elevou o corpus único de 3.601 para 6.250 registros. A triagem dessas bases excluiu 1.033 registros por tipo de documento e por domínio alheio ao escopo, submeteu 1.616 candidatos à leitura de título e resumo e incorporou 42 estudos, sendo 40 provenientes da Scopus e 2 da LISTA, de modo que os 105 estudos correspondem aos 57 estudos do corpus inicial, às 6 teses e dissertações recuperadas na BDTD e aos 42 estudos incorporados nesta versão.
+A incorporação das bases novas somou 3.058 registros identificados, com 65 duplicatas entre elas e 344 em relação ao corpus anterior, o que resultou em 2.649 registros novos e elevou o corpus único de 3.601 para 6.250 registros. A triagem dessas bases excluiu 1.033 registros por tipo de documento e por domínio alheio ao escopo, submeteu 1.616 candidatos à leitura de título e resumo e incorporou 42 estudos, sendo 40 provenientes da Scopus e 2 da LISTA, de modo que os 125 estudos correspondem aos 57 estudos do corpus inicial, às 6 teses e dissertações recuperadas na BDTD, aos 42 estudos incorporados na versão 2.2.0 e aos 20 incorporados na versão 2.3.0.
 
-O intervalo temporal dos 105 estudos vai de 1983 a 2026, com 64 deles, ou 61,0%, publicados em 2025 ou 2026. Entre os 5.652 registros únicos com ano informado, 3.767, ou 66,6%, foram publicados em 2025 ou 2026, 1.261, ou 22,3%, entre 2020 e 2024 e 624, ou 11,0%, antes de 2020, e 193 registros, ou 3,4%, provinham de repositórios de preprint ou de publicação não revisada por pares, com destaque para Zenodo, com 77 registros, SSRN, com 76, e arXiv, com 36. A expressão exata *synthetic authority* retornou três registros declarados na Scopus, 24 na LISTA e nenhum na Web of Science, no Portal de Periódicos da CAPES e na BDTD, o que confirma o caráter incipiente do termo.
+A coleta no Portal de Periódicos da CAPES foi refeita manualmente em 20 de novembro de 2026, com doze expressões na busca avançada e exportação em arquivo RIS, o que recuperou 1.146 registros, dos quais 284 eram duplicatas internas, 514 já constavam do corpus e 348 permaneceram como candidatos. A triagem desses candidatos, feita em três passos com apoio de modelos de linguagem e conferência manual das decisões limítrofes, aprovou 69 registros, aos quais se aplicou uma regra lexical declarada antes da seleção, com três condições cumulativas, a presença de termo de inteligência artificial no título ou no resumo, a densidade de pelo menos três termos de autoridade e o resumo com 500 caracteres ou mais. A regra reteve 38 registros, dos quais 20 foram incorporados, o que elevou o corpus de 105 para 125 estudos, e a lista completa dos elegíveis, com as métricas de cada registro, está em `dados/06_capes/`.
+
+
+O intervalo temporal dos 125 estudos vai de 1983 a 2026, com 80 deles, ou 64,0%, publicados em 2025 ou 2026. Entre os 6.000 registros únicos com ano informado, 3.985, ou 66,4%, foram publicados em 2025 ou 2026, 1.366, ou 22,8%, entre 2020 e 2024 e 649, ou 10,8%, antes de 2020, e 193 registros, ou 3,2%, provinham de repositórios de preprint ou de publicação não revisada por pares, com destaque para Zenodo, com 77 registros, SSRN, com 76, e arXiv, com 36. A expressão exata *synthetic authority* retornou três registros declarados na Scopus, 24 na LISTA e nenhum na Web of Science, no Portal de Periódicos da CAPES e na BDTD, o que confirma o caráter incipiente do termo.
 
 ## Reprodutibilidade
 
@@ -103,7 +107,7 @@ Lattes: http://lattes.cnpq.br/5720093855838869
 
 A citação do depósito está descrita no arquivo `CITATION.cff`. Enquanto não houver identificador persistente, use:
 
-> FERREIRA, Breno Heleno. **Autoridade sintética na IA generativa e os limites da explicabilidade: dados, protocolo e scripts de uma revisão de escopo**. Versão 2.2.0. 2026. Repositório GitHub. Disponível em: https://github.com/brenohferreira/autoridade-sintetica. Acesso em: [data].
+> FERREIRA, Breno Heleno. **Autoridade sintética na IA generativa e os limites da explicabilidade: dados, protocolo e scripts de uma revisão de escopo**. Versão 2.3.0. 2026. Repositório GitHub. Disponível em: https://github.com/brenohferreira/autoridade-sintetica. Acesso em: [data].
 
 ## Licença
 
