@@ -2,6 +2,15 @@
 
 Todas as versões do depósito são identificadas por etiqueta no repositório e correspondem a um estado completo dos dados, do protocolo e dos scripts.
 
+## 2.1.0 — 19 de novembro de 2026
+Ampliação de fontes e correção do recorte temporal do artigo.
+- Execução da BDTD em doze consultas de todos os campos, sem filtros, que somaram 1.029 registros e 740 elegíveis após deduplicação e exclusão automática.
+- Inclusão de seis teses e dissertações brasileiras: 2015 (autoridade cognitiva em redes sociais), 2023 (padrões de autoridade em fóruns), 2025 (duas, confiança em IA e explicações geradas por LLM), 2025 (autoridade algorítmica) e 2026 (explicabilidade e confiança de investidores).
+- Recálculo integral do fluxo: 3.687 registros identificados, 507 duplicatas removidas, 3.180 triados, 3.117 não incluídos e 63 estudos incluídos, dos quais 12 com texto completo e 51 pelo resumo.
+- Bibliometria atualizada: 56 estudos com afiliação recuperada, 24 países, Brasil com 6 estudos e computação e interação humano-computador com 23 estudos.
+- Figuras 1 e 2 refeitas para os novos totais.
+- Acrescentado o documento de emenda ao protocolo, com as expressões pendentes para LISA, LISTA, Scopus e Portal de Periódicos da CAPES.
+- Dados brutos e de triagem da BDTD publicados em dados/01_buscas/bdtd/.
 ## 2.0.1 — 12 de novembro de 2026
 - Figura 1 substituída pela versão final publicada no artigo: fluxograma em funil com os totais por fonte, as 372 duplicatas discriminadas, os 2.229 registros não incluídos, a composição dos 57 estudos e os critérios de exclusão E1 a E6.
 - Nenhuma alteração nos dados, no protocolo ou nos totais; a versão preserva a reconciliação com as abas de triagem e extração da planilha.

@@ -1,0 +1,117 @@
+[
+ {
+  "titulo": "idAuthority : um modelo para a identificação de autoridade cognitiva em redes sociais",
+  "autores": "Toledo, Douglas Franscisquini",
+  "ano": "2015",
+  "tipo": "Dissertação",
+  "registro": "https://bdtd.ibict.br/vufind/Record/UEM-10_09ef39ec214843c2425e33c070b9d125",
+  "url_texto": "http://repositorio.uem.br:8080/jspui/handle/1/2527",
+  "consulta": "D1",
+  "expressao": "\"autoridade cognitiva\"",
+  "score": 4,
+  "marcas": [
+   "autoridade",
+   "epistemica"
+  ],
+  "autor_principal": "Toledo, Douglas Franscisquini",
+  "orientador": "Não Informado pela instituição",
+  "instituicao_defesa": "Universidade Estadual de Maringá Brasil",
+  "idioma": "por",
+  "ano_defesa": "2015 Autor(a) principal: Toledo, Douglas Franscisquini"
+ },
+ {
+  "titulo": "Teias ocultas: mapeando redes de autoridade algorítmica nos sites denunciados por desinformação estratégica na CPI da pandemia da Covid-19",
+  "autores": "Zordan, Erika Cristina",
+  "ano": "2025",
+  "tipo": "Dissertação",
+  "registro": "https://bdtd.ibict.br/vufind/Record/IBICT_a488b6431fc6246e542c65dbe037e865",
+  "url_texto": "http://ridi.ibict.br/handle/123456789/1453",
+  "consulta": "D8",
+  "expressao": "desinformação AND autoridade",
+  "score": 2,
+  "marcas": [
+   "autoridade"
+  ],
+  "autor_principal": "Zordan, Erika Cristina",
+  "orientador": "Santini, Rose Marie",
+  "instituicao_defesa": "INSTITUTO BRASILEIRO DE INFORMAÇÃO EM CIÊNCIA E TECNOLOGIA/ UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+  "idioma": "por",
+  "ano_defesa": "2025 Autor(a) principal: Zordan, Erika Cristina"
+ },
+ {
+  "titulo": "Confiança na IA : perspectivas de executivos c-level em organizações brasileiras",
+  "autores": "Gonçalves, Clendson Domingos",
+  "ano": "2025",
+  "tipo": "Dissertação",
+  "registro": "https://bdtd.ibict.br/vufind/Record/UNB_a47872b937e38bf26cc0dda28b6fcf60",
+  "url_texto": "http://repositorio.unb.br/handle/10482/52578",
+  "consulta": "D4",
+  "expressao": "autoridade AND \"inteligência artificial\"",
+  "score": 0,
+  "marcas": [],
+  "autor_principal": "Gonçalves, Clendson Domingos",
+  "orientador": "Mendonça, Fábio Lúcio Lopes de",
+  "instituicao_defesa": "Não Informado pela instituição",
+  "idioma": "por",
+  "ano_defesa": "2025 Autor(a) principal: Gonçalves, Clendson Domingos"
+ },
+ {
+  "titulo": "A explicabilidade da inteligência artificial na confiança dos investidores em ações",
+  "autores": "Perrone, Bruno Freire",
+  "ano": "2026",
+  "tipo": "Dissertação",
+  "registro": "https://bdtd.ibict.br/vufind/Record/PUC_SP-1_183e4f57c0fc9b6bcaf234c113fa4593",
+  "url_texto": "https://repositorio.pucsp.br/jspui/handle/handle/46768",
+  "consulta": "D5",
+  "expressao": "explicabilidade AND \"inteligência artificial\"",
+  "score": 4,
+  "marcas": [
+   "ia",
+   "explicabilidade"
+  ],
+  "autor_principal": "Perrone, Bruno Freire",
+  "orientador": "Silva, Diogo Cortiz da",
+  "instituicao_defesa": "Pontifícia Universidade Católica de São Paulo",
+  "idioma": "por",
+  "ano_defesa": "2026 Autor(a) principal: Perrone, Bruno Freire"
+ },
+ {
+  "titulo": "Leveraging LLMs for explainable recommender systems : exploring user perceptions and faithfulness in generated explanations",
+  "autores": "SILVA, Ítallo de Sousa.",
+  "ano": "2025",
+  "tipo": "Dissertação",
+  "registro": "https://bdtd.ibict.br/vufind/Record/UFCG_2776d78bf107db58ecaac9a11b48e66a",
+  "url_texto": "https://dspace.sti.ufcg.edu.br/handle/riufcg/41298",
+  "consulta": "D12",
+  "expressao": "\"explainable AI\" OR \"explainable artificial intelligence\"",
+  "score": 4,
+  "marcas": [
+   "ia",
+   "explicabilidade"
+  ],
+  "autor_principal": "SILVA, Ítallo de Sousa.",
+  "orientador": "MARINHO, Leandro Balby.",
+  "instituicao_defesa": "Universidade Federal de Campina Grande",
+  "idioma": "por",
+  "ano_defesa": "2025 Autor(a) principal: SILVA, Ítallo de Sousa."
+ },
+ {
+  "titulo": "A conversa começa aqui : padrões de autoridade nos fóruns de história do Reddit (2008-2018)",
+  "autores": "Andrade, Daniela Linkevicius de",
+  "ano": "2023",
+  "tipo": "Tese",
+  "registro": "https://bdtd.ibict.br/vufind/Record/UNB_38c5265b0591f1b3fc8d4dbb33642ae2",
+  "url_texto": "http://repositorio.unb.br/handle/10482/47579",
+  "consulta": "D2",
+  "expressao": "\"autoridade epistêmica\"",
+  "score": 2,
+  "marcas": [
+   "autoridade"
+  ],
+  "autor_principal": "Andrade, Daniela Linkevicius de",
+  "orientador": "Assis, Arthur Alfaix",
+  "instituicao_defesa": "Não Informado pela instituição",
+  "idioma": "por",
+  "ano_defesa": "2023 Autor(a) principal: Andrade, Daniela Linkevicius de"
+ }
+]

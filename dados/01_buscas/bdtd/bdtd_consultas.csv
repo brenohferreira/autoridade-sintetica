@@ -1,0 +1,13 @@
+consulta;expressao;campos;filtros;ordenacao;total_exibido;recuperados;data;url
+D1;"""autoridade cognitiva""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;9;9;2026-11-20T00:11:23+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D2;"""autoridade epistêmica""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;23;23;2026-11-20T00:11:26+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D3;"""autoridade sintética""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;0;0;2026-11-20T00:11:33+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D4;"autoridade AND ""inteligência artificial""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;700;240;2026-11-20T00:11:36+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D5;"explicabilidade AND ""inteligência artificial""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;308;240;2026-11-20T00:12:21+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D6;"""direito à explicação""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;23;23;2026-11-20T00:13:05+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D7;"""competência crítica em informação"" AND ""inteligência artificial""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;2;2;2026-11-20T00:13:13+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D8;desinformação AND autoridade;todos os campos (título, autor, assunto, resumo);nenhum;relevância;262;240;2026-11-20T00:13:17+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D9;"""cognitive authority""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;8;8;2026-11-20T00:14:01+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D10;"""epistemic authority""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;27;27;2026-11-20T00:14:04+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D11;"""synthetic authority""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;0;0;2026-11-20T00:14:12+00:00;https://bdtd.ibict.br/vufind/Search/Results
+D12;"""explainable AI"" OR ""explainable artificial intelligence""";todos os campos (título, autor, assunto, resumo);nenhum;relevância;217;217;2026-11-20T00:14:15+00:00;https://bdtd.ibict.br/vufind/Search/Results

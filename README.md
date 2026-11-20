@@ -11,9 +11,9 @@ Compreender como a literatura sobre autoridade cognitiva e autoridade epistêmic
 - **dados/01_buscas/**: expressões exatas, filtros, totais por consulta, registros brutos das bases e rastreamento de citações.
 - **dados/01_buscas/wos_bruto/**: as sete exportações originais da Web of Science Core Collection, no formato de texto da Clarivate, e os registros convertidos em JSON.
 - **dados/02_triagem/**: registros únicos após deduplicação, candidatos avaliados, triagem e exclusões da Web of Science e estatísticas do corpus.
-- **dados/03_extracao/**: matriz de extração com os 57 estudos incluídos, localizadores de página e uso de cada fonte.
+- **dados/03_extracao/**: matriz de extração com os 63 estudos incluídos, localizadores de página e uso de cada fonte.
 - **dados/04_planilha/**: planilha auditável com as abas de buscas, triagem, extração, fluxo e bibliometria.
-- **dados/05_bibliometria.csv** e **dados/05_bibliometria_resumo.csv**: veículo, área do conhecimento, país e instituição de afiliação de cada um dos 57 estudos, com os totais agregados.
+- **dados/05_bibliometria.csv** e **dados/05_bibliometria_resumo.csv**: veículo, área do conhecimento, país e instituição de afiliação de cada um dos 63 estudos, com os totais agregados.
 - **protocolo/**: protocolo v2.0, com a versão registrada antes das buscas definitivas e o registro das emendas, em DOCX, PDF e Markdown.
 - **figuras/**: diagrama de seleção (PRISMA-ScR) e figura de distribuição temporal e por área do conhecimento, em 300 dpi.
 - **scripts/**: rotinas de coleta, deduplicação, triagem, verificação de metadados, extração e geração das figuras.
@@ -44,7 +44,7 @@ A revisão seguiu a metodologia do JBI e as orientações de relato do PRISMA-Sc
 
 ## Números da revisão
 
-Foram identificados 2.658 registros: 1.019 na OpenAlex, 1.407 na Web of Science Core Collection, 48 na BRAPCI, 70 no Google Acadêmico, 106 por rastreamento de citações e 8 por busca nominal dirigida. Após a remoção de 372 duplicatas, restaram 2.286 registros únicos, e a triagem excluiu 2.229, o que resultou em 57 estudos incluídos, publicados entre 1983 e 2026, dos quais 12 tiveram o texto completo examinado e 45 foram incorporados a partir do resumo. A expressão exata *synthetic authority* não retornou nenhum registro na Web of Science. Dos 2.109 registros únicos com ano informado, 1.511 (71,6%) foram publicados em 2025 ou 2026, 312 (14,8%) entre 2020 e 2024 e 286 (13,6%) antes de 2020, e 193 (8,5%) provêm de repositórios de preprint.
+Foram identificados 3.687 registros: 1.019 na OpenAlex, 1.407 na Web of Science Core Collection, 1.029 na BDTD, 106 por rastreamento de citações, 70 no Google Acadêmico, 48 na BRAPCI e 8 por busca nominal dirigida. Após a remoção de 507 duplicatas, restaram 3.180 registros únicos, e a triagem excluiu 3.117, o que resultou em 63 estudos incluídos, publicados entre 1983 e 2026, dos quais 12 tiveram o texto completo examinado e 51 foram incorporados a partir do resumo. Dos 3.003 registros únicos com ano informado, 1.822 (60,7%) foram publicados em 2025 ou 2026, 754 (25,1%) entre 2020 e 2024 e 427 (14,2%) antes de 2020, e 193 (6,4%) provêm de repositórios de preprint. A expressão exata *synthetic authority* não retornou nenhum registro na Web of Science. 
 
 ## Reprodutibilidade
 
