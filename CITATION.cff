@@ -21,6 +21,13 @@ version: 2.3.0
 date-released: 2026-11-20
 license: CC-BY-4.0
 repository-code: "https://github.com/brenohferreira/autoridade-sintetica"
+identifiers:
+  - type: url
+    value: "https://osf.io/kvzqd/"
+    description: "Registro do protocolo na OSF, como OSF Preregistration, vinculado ao ORCID 0000-0003-0285-7414"
+  - type: other
+    value: "0000-0003-0285-7414"
+    description: "ORCID do autor"
 keywords:
   - autoridade cognitiva
   - autoridade epistêmica

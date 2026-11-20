@@ -6,6 +6,10 @@ Este repositório reúne os dados, o protocolo, as figuras e os scripts produzid
 
 Compreender como a literatura sobre autoridade cognitiva e autoridade epistêmica permite interpretar a autoridade atribuída à IA generativa e em que condições a explicabilidade possibilita examinar e contestar suas respostas, distinguindo o que o usuário efetivamente faz ao tratar uma resposta como razão daquilo que tornaria essa atribuição justificada.
 
+## Registro do protocolo na OSF
+
+O protocolo desta revisão está registrado e público na OSF, como OSF Preregistration, em [https://osf.io/kvzqd/](https://osf.io/kvzqd/), com vinculação ao ORCID do autor, [0000-0003-0285-7414](https://orcid.org/0000-0003-0285-7414), e com link de visualização compartilhável que dispensa conta na plataforma, em https://osf.io/kvzqd/overview?view_only=df74f9344b324e5081c78fcf52d63e09. O registro reúne as questões de pesquisa, a estrutura população, conceito e contexto, o desenho em cinco etapas, a estratégia de amostragem com os critérios de elegibilidade, as variáveis e os índices derivados, o plano de análise e as declarações de financiamento, de conflitos de interesse, de disponibilidade de dados e de uso de inteligência artificial, e foi declarado retrospectivo, com justificativa das providências adotadas para reduzir o risco de influência do conhecimento dos resultados sobre o plano. A versão integral do protocolo permanece nesta pasta, em `protocolo/Protocolo_registro_revisao_v2.3.0.pdf` e em `protocolo/Protocolo_registro_revisao_v2.3.0.docx`, e a página publicada deste repositório serve o mesmo arquivo em https://brenohferreira.github.io/autoridade-sintetica/protocolo/Protocolo_registro_revisao_v2.3.0.pdf.
+
 ## Estrutura do Repositório
 
 - **artigo/**: artigo completo na versão 2.3.0, em DOCX e PDF, com as figuras incorporadas e a lista de referências atualizada.
@@ -105,9 +109,10 @@ Lattes: http://lattes.cnpq.br/5720093855838869
 
 ## Como citar
 
-A citação do depósito está descrita no arquivo `CITATION.cff`. Enquanto não houver identificador persistente, use:
-
+A citação do depósito está descrita no arquivo `CITATION.cff`. Enquanto não houver identificador persistente atribuído pela OSF, use:
 > FERREIRA, Breno Heleno. **Autoridade sintética na IA generativa e os limites da explicabilidade: dados, protocolo e scripts de uma revisão de escopo**. Versão 2.3.0. 2026. Repositório GitHub. Disponível em: https://github.com/brenohferreira/autoridade-sintetica. Acesso em: [data].
+O protocolo registrado na OSF cita-se como:
+> FERREIRA, Breno Heleno. **Protocolo e registro da revisão de escopo: autoridade sintética, autoridade cognitiva e autoridade epistêmica na inteligência artificial generativa (versão 2.3)**. OSF Preregistration. 2026. Disponível em: https://osf.io/kvzqd/. Acesso em: [data].
 
 ## Licença
 
