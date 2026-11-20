@@ -1,0 +1,7 @@
+consulta;expressao;campos;filtros;ordenacao;situacao;total_declarado;registros_unicos;data;url
+C1;"""cognitive authority""";todos os campos;nenhum filtro de tipo ou idioma;relevância;executada;94;30;2026-11-20T00:00:00+00:00;https://www.periodicos.capes.gov.br
+C2;"""epistemic authority"" AND ""artificial intelligence""";todos os campos;nenhum filtro de tipo ou idioma;relevância;executada;80;30;2026-11-20T00:00:00+00:00;https://www.periodicos.capes.gov.br
+C3;"""synthetic authority""";todos os campos;nenhum filtro de tipo ou idioma;relevância;executada sem resultados;0;0;2026-11-20T00:00:00+00:00;https://www.periodicos.capes.gov.br
+C4;"(""generative AI"" OR ""large language model"" OR ChatGPT) AND (authority OR deference)";todos os campos;nenhum filtro de tipo ou idioma;relevância;bloqueada pelo firewall do serviço, HTTP 403;não disponível;0;2026-11-20T00:00:00+00:00;https://www.periodicos.capes.gov.br
+C5;"""right to explanation"" OR ""explainable AI"" OR XAI OR contestability";todos os campos;nenhum filtro de tipo ou idioma;relevância;bloqueada pelo firewall do serviço, HTTP 403;não disponível;0;2026-11-20T00:00:00+00:00;https://www.periodicos.capes.gov.br
+C6;"""automation bias"" OR ""machine heuristic"" OR ""algorithmic authority""";todos os campos;nenhum filtro de tipo ou idioma;relevância;bloqueada pelo firewall do serviço, HTTP 403;não disponível;0;2026-11-20T00:00:00+00:00;https://www.periodicos.capes.gov.br

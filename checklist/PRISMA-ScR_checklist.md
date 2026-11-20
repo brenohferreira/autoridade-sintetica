@@ -8,9 +8,9 @@ Preenchimento referente ao artigo *Autoridade sintética na IA generativa e expl
 | 2 | Resumo | Resumo com contexto, objetivo, critérios, fontes, métodos de extração, resultados, conclusões e financiamento | RESUMO, em parágrafo único conforme a ABNT | Atendido |
 | 3 | Justificativa | Situar a revisão no conhecimento existente e explicar por que a pergunta exige revisão de escopo | 1 Introdução | Atendido |
 | 4 | Objetivos | Enunciar explicitamente perguntas e objetivos, com população, conceito e contexto | 1 Introdução e 2.1 | Atendido |
-| 5 | Protocolo e registro | Indicar se existe protocolo, onde está acessível e se houve registro | 2.1 e protocolo v1.0 depositado | Atendido parcialmente: protocolo versionado e público, sem registro em plataforma específica |
+| 5 | Protocolo e registro | Indicar se existe protocolo, onde está acessível e se houve registro | 2.1, protocolo v1.0 e emenda v2.2 depositados | Atendido parcialmente: protocolo versionado e público, sem registro em plataforma específica |
 | 6 | Critérios de elegibilidade | Especificar características das fontes e critérios de inclusão e exclusão, com justificativa | 2.1 | Atendido |
-| 7 | Fontes de informação | Descrever todas as fontes, com cobertura e data da última busca | 2.2 | Atendido, com a Web of Science e a Scopus declaradas pendentes por restrição de acesso |
+| 7 | Fontes de informação | Descrever todas as fontes, com cobertura e data da última busca | 2.2 e emenda v2.2 | Atendido: dez fontes e percursos executados em 20 de novembro de 2026, com a LISA declarada indisponível na assinatura institucional e as consultas C4 a C6 do Portal de Periódicos da CAPES bloqueadas pelo firewall do serviço |
 | 8 | Busca | Apresentar a estratégia completa de ao menos uma base, de modo replicável | 2.2 e `dados/01_buscas/consultas.csv` | Atendido |
 | 9 | Seleção das fontes | Descrever o processo de seleção, triagem e elegibilidade | 2.3 | Atendido |
 | 10 | Processo de extração | Descrever os métodos de extração e os instrumentos utilizados | 2.3 e planilha auditável | Atendido |

@@ -5,17 +5,20 @@ abstract: >-
   Revisão de escopo, conduzida conforme a metodologia do JBI e as orientações de relato do
   PRISMA-ScR, sobre a autoridade que os usuários atribuem à inteligência artificial generativa
   e sobre as condições em que a explicabilidade permite examinar e contestar suas respostas.
-  O depósito reúne o protocolo, as expressões de busca com os totais por consulta,
-  os registros recuperados, as decisões de triagem, a matriz de extração com localizadores de
-  página e os scripts de análise.
+  As buscas foram executadas em dez fontes e percursos, com 6.745 registros identificados,
+  916 duplicatas removidas, 5.829 registros triados e 105 estudos incluídos, publicados entre
+  1983 e 2026, dos quais 113 em 2025 ou 2026. O depósito reúne o artigo na versão 2.2.0, o
+  protocolo e sua emenda, as expressões de busca com os totais por consulta, os registros
+  recuperados, as decisões de triagem, a matriz de extração com localizadores de página, as
+  figuras e os scripts de análise.
 authors:
   - family-names: "Ferreira"
     given-names: "Breno Heleno"
     affiliation: "Universidade Federal de Minas Gerais"
     email: "brenohferreira@ufmg.br"
     website: "http://lattes.cnpq.br/5720093855838869"
-version: 2.1.0
-date-released: 2026-11-19
+version: 2.2.0
+date-released: 2026-11-20
 license: CC-BY-4.0
 repository-code: "https://github.com/brenohferreira/autoridade-sintetica"
 keywords:

@@ -1,0 +1,7 @@
+consulta;expressao;campos;filtros;ordenacao;situacao;total_declarado;registros_unicos;data;url
+A1;"""cognitive authority""";título e resumo;nenhum filtro de tipo ou idioma;relevância;executada;59;58;2026-11-20T00:00:00+00:00;https://search.ebscohost.com
+A2;"""epistemic authority"" AND (""artificial intelligence"" OR ""generative AI"" OR algorithm)";título e resumo;nenhum filtro de tipo ou idioma;relevância;executada;3;0;2026-11-20T00:00:00+00:00;https://search.ebscohost.com
+A3;"""synthetic authority""";título e resumo;nenhum filtro de tipo ou idioma;relevância;executada;24;21;2026-11-20T00:00:00+00:00;https://search.ebscohost.com
+A4;"(""generative AI"" OR ""large language model"" OR ChatGPT) AND (authority OR deference)";título e resumo;nenhum filtro de tipo ou idioma;relevância;executada;38;31;2026-11-20T00:00:00+00:00;https://search.ebscohost.com
+A5;"""right to explanation"" OR ""explainable AI"" OR XAI OR contestability";título e resumo;teto de 200 registros, ordenados por relevância;relevância;executada com teto de 200;354;198;2026-11-20T00:00:00+00:00;https://search.ebscohost.com
+A6;"""automation bias"" OR ""machine heuristic"" OR ""algorithmic authority""";título e resumo;nenhum filtro de tipo ou idioma;relevância;executada;22;19;2026-11-20T00:00:00+00:00;https://search.ebscohost.com

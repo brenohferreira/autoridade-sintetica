@@ -28,6 +28,13 @@
                font-size:14px; font-weight:600; }
   ul.links span { display:block; font-size:13px; color:var(--suave); margin-top:4px;
                   font-family: ui-sans-serif, system-ui, sans-serif; }
+  table { width:100%; border-collapse:collapse; font-size:14px; margin:0 0 14px; background:#fff; }
+  caption { text-align:left; font-family: ui-sans-serif, system-ui, sans-serif; font-size:12px;
+            color:var(--suave); padding-bottom:6px; }
+  th, td { border:1px solid var(--linha); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { font-family: ui-sans-serif, system-ui, sans-serif; font-size:12px; text-transform:uppercase;
+       letter-spacing:.06em; color:var(--azul); font-weight:600; }
+  td.num { text-align:right; font-variant-numeric: tabular-nums; white-space:nowrap; }
   blockquote { margin:0; padding:16px 20px; border-left:3px solid var(--azul); background:#fff;
                font-size:14.5px; }
   code { font-family: ui-monospace, monospace; font-size:13px; }
@@ -38,10 +45,10 @@
 </head>
 <body>
 <header>
-  <div class="selo">Revisão de escopo · Ciência aberta · Versão 2.0.0</div>
+  <div class="selo">Revisão de escopo · Ciência aberta · Versão 2.2.0</div>
   <h1>Autoridade sintética na IA generativa e os limites da explicabilidade</h1>
   <p class="sub">Synthetic authority in generative AI and the limits of explainability: a scoping review</p>
-  <p class="autoria">Breno Heleno Ferreira · Universidade Federal de Minas Gerais · brenohferreira@ufmg.br · 12 de novembro de 2026</p>
+  <p class="autoria">Breno Heleno Ferreira · Universidade Federal de Minas Gerais · brenohferreira@ufmg.br · 20 de novembro de 2026</p>
 </header>
 
 <main>
@@ -49,45 +56,90 @@
   <p class="resumo">Esta revisão de escopo tem por objetivo compreender como a literatura sobre autoridade
   cognitiva e autoridade epistêmica permite interpretar a autoridade que os usuários atribuem à inteligência
   artificial generativa e em que condições a explicabilidade possibilita examinar e contestar suas respostas.
-  Foram identificados 3.687 registros; após a remoção de 507 duplicatas e a triagem de 3.180 registros únicos,
-  63 estudos foram incluídos, publicados entre 1983 e 2026. Os resultados indicam que a autoridade cognitiva
-  vem sendo concebida em quatro linhas de investigação e que o termo autoridade sintética se mostra
-  incipiente, disperso e majoritariamente veiculado em preprints de 2025 e 2026. Na discussão, refina-se a
-  definição de autoridade sintética como conceito descritivo e examina-se em que condições a explicação
-  converte autoridade em autonomia: quando é contrastiva, informa a proveniência da resposta e se submete a
-  procedimentos de contestação.</p>
+  As buscas foram executadas em dez fontes e percursos, que identificaram 6.745 registros; após a remoção de
+  916 duplicatas e a triagem de 5.829 registros, 1.281 foram lidos por título e resumo e 105 estudos foram
+  incluídos, sendo 99 artigos, capítulos e trabalhos em anais e 6 teses e dissertações, publicados entre 1983
+  e 2026, com 64 deles, ou 61,0%, em 2025 ou 2026. Os resultados indicam que a autoridade cognitiva vem sendo
+  concebida em quatro linhas de investigação e que o termo autoridade sintética se mostra incipiente, disperso
+  e majoritariamente veiculado em preprints de 2025 e 2026. Na discussão, refina-se a definição de autoridade
+  sintética como conceito descritivo e examina-se em que condições a explicação converte autoridade em
+  autonomia: quando é contrastiva, informa a proveniência da resposta e se submete a procedimentos de
+  contestação.</p>
+
+  <h2>Números da revisão</h2>
+  <table>
+    <caption>Fluxo de seleção e composição do corpus na versão 2.2.0</caption>
+    <tr><th>Etapa</th><th>Total</th></tr>
+    <tr><td>Registros identificados</td><td class="num">6.745</td></tr>
+    <tr><td>Duplicatas removidas</td><td class="num">916</td></tr>
+    <tr><td>Registros triados</td><td class="num">5.829</td></tr>
+    <tr><td>Registros lidos por título e resumo</td><td class="num">1.281</td></tr>
+    <tr><td>Estudos incluídos</td><td class="num">105</td></tr>
+    <tr><td>Artigos, capítulos e trabalhos em anais</td><td class="num">99</td></tr>
+    <tr><td>Teses e dissertações</td><td class="num">6</td></tr>
+    <tr><td>Estudos publicados em 2025 ou 2026</td><td class="num">113 (69,3%)</td></tr>
+  </table>
+
+  <table>
+    <caption>Registros por base e situação da coleta</caption>
+    <tr><th>Base</th><th>Registros</th><th>Situação</th></tr>
+    <tr><td>Scopus</td><td class="num">2.671</td><td>executada, com teto de 200 na consulta de explicabilidade</td></tr>
+    <tr><td>Web of Science Core Collection</td><td class="num">1.407</td><td>executada, com acesso institucional</td></tr>
+    <tr><td>BDTD</td><td class="num">1.029</td><td>executada, com teto de 240 por consulta</td></tr>
+    <tr><td>OpenAlex</td><td class="num">1.019</td><td>executada, com teto de 200 nas consultas amplas</td></tr>
+    <tr><td>LISTA</td><td class="num">327</td><td>executada, com teto de 200 na consulta de explicabilidade</td></tr>
+    <tr><td>Rastreamento de citações</td><td class="num">106</td><td>executada a partir de dois estudos-semente</td></tr>
+    <tr><td>Google Acadêmico</td><td class="num">70</td><td>executada por navegador</td></tr>
+    <tr><td>Portal de Periódicos da CAPES</td><td class="num">60</td><td>executada em parte, com C4 a C6 bloqueadas pelo firewall</td></tr>
+    <tr><td>BRAPCI</td><td class="num">48</td><td>executada</td></tr>
+    <tr><td>Busca nominal dirigida</td><td class="num">8</td><td>executada</td></tr>
+    <tr><td>LISA</td><td class="num">0</td><td>indisponível na assinatura ProQuest da UFMG</td></tr>
+  </table>
 
   <h2>Materiais</h2>
   <ul class="links">
-    <li><a href="https://github.com/brenohferreira/autoridade-sintetica/blob/main/protocolo/Protocolo_registro_revisao.pdf">Protocolo v2.0</a>
-        <span>Redigido antes das buscas, com emenda para a Web of Science</span></li>
+    <li><a href="https://github.com/brenohferreira/autoridade-sintetica/blob/main/artigo/Artigo_autoridade_sintetica_v2.2.0.pdf">Artigo, versão 2.2.0</a>
+        <span>Texto completo em PDF, com as figuras e as referências atualizadas</span></li>
+    <li><a href="https://github.com/brenohferreira/autoridade-sintetica/blob/main/protocolo/Emenda_ampliacao_de_fontes.pdf">Emenda ao protocolo, versão 2.2</a>
+        <span>Consultas da Scopus, da LISTA e do Portal de Periódicos da CAPES</span></li>
+    <li><a href="https://github.com/brenohferreira/autoridade-sintetica/blob/main/protocolo/Protocolo_registro_revisao.pdf">Protocolo registrado</a>
+        <span>Redigido e datado antes das buscas definitivas</span></li>
     <li><a href="https://github.com/brenohferreira/autoridade-sintetica/blob/main/dados/04_planilha/Planilha_auditavel_revisao.xlsx">Planilha auditável</a>
-        <span>Buscas, triagem, extração e fluxo</span></li>
-    <li><a href="https://github.com/brenohferreira/autoridade-sintetica/blob/main/dados/03_extracao/matriz_extracao.csv">Matriz de extração</a>
-        <span>63 estudos com localizadores de página</span></li>
+        <span>Buscas, triagem, extração, fluxo e bibliometria</span></li>
+    <li><a href="https://github.com/brenohferreira/autoridade-sintetica/blob/main/dados/03_extracao/novas_incluidas.csv">Estudos incorporados</a>
+        <span>Os 42 estudos incluídos na versão 2.2.0</span></li>
     <li><a href="https://github.com/brenohferreira/autoridade-sintetica/blob/main/dados/01_buscas/consultas_bases.csv">Registro das consultas</a>
         <span>Expressões, filtros e totais por base</span></li>
+    <li><a href="https://github.com/brenohferreira/autoridade-sintetica/tree/main/dados/01_buscas/scopus">Registros da Scopus</a>
+        <span>2.671 registros únicos e o quadro das seis consultas</span></li>
+    <li><a href="https://github.com/brenohferreira/autoridade-sintetica/tree/main/dados/01_buscas/lista">Registros da LISTA</a>
+        <span>327 registros únicos e o quadro das seis consultas</span></li>
+    <li><a href="https://github.com/brenohferreira/autoridade-sintetica/tree/main/dados/01_buscas/capes">Registros do Portal da CAPES</a>
+        <span>60 registros e o registro do bloqueio de C4 a C6</span></li>
     <li><a href="https://github.com/brenohferreira/autoridade-sintetica/tree/main/dados/01_buscas/wos_bruto">Exportações da Web of Science</a>
         <span>Sete arquivos originais, renomeados por consulta</span></li>
     <li><a href="https://github.com/brenohferreira/autoridade-sintetica/blob/main/checklist/PRISMA-ScR_checklist.md">Lista PRISMA-ScR</a>
         <span>Preenchida item por item</span></li>
+    <li><a href="https://github.com/brenohferreira/autoridade-sintetica/tree/main/figuras">Figuras</a>
+        <span>Diagrama de seleção e distribuição temporal, em 300 dpi</span></li>
   </ul>
 
   <h2>Como citar</h2>
   <blockquote>FERREIRA, Breno Heleno. <strong>Autoridade sintética na IA generativa e os limites da
-  explicabilidade: dados, protocolo e scripts de uma revisão de escopo</strong>. Versão 2.0.0. 2026. Disponível em:
+  explicabilidade: dados, protocolo e scripts de uma revisão de escopo</strong>. Versão 2.2.0. 2026. Disponível em:
   <code>https://github.com/brenohferreira/autoridade-sintetica</code>.</blockquote>
 
   <h2>Licença</h2>
-  <p>Dados, protocolo e figuras sob <a href="https://creativecommons.org/licenses/by/4.0/deed.pt-br">CC BY 4.0</a>;
+  <p>Dados, protocolo, figuras e artigo sob <a href="https://creativecommons.org/licenses/by/4.0/deed.pt-br">CC BY 4.0</a>;
   scripts sob <a href="https://opensource.org/licenses/MIT">MIT</a>.</p>
 
   <p class="autoria"><a href="https://github.com/brenohferreira/autoridade-sintetica">Repositório no GitHub</a></p>
 
   <footer>
-    Depósito versionado no GitHub, sem o texto do artigo. A busca na Web of Science foi executada com acesso
-    institucional em 12 de novembro de 2026; a busca na Scopus não foi executada por exigir assinatura própria,
-    conforme registrado no protocolo.
+    Depósito versionado no GitHub. As consultas à Scopus, à LISTA e ao Portal de Periódicos da CAPES foram
+    executadas em 20 de novembro de 2026, por acesso institucional. A LISA não integra a assinatura ProQuest
+    disponível, e três das seis consultas ao Portal de Periódicos da CAPES foram bloqueadas pelo firewall do
+    serviço, conforme registrado na emenda ao protocolo.
   </footer>
 </main>
 </body>

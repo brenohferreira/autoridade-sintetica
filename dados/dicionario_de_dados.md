@@ -51,13 +51,13 @@ Conjunto após deduplicação por identificador digital e por similaridade de t�
 
 ## `02_triagem/estatisticas.json`
 
-Distribuição dos registros únicos por ano, total de registros e contagem por repositório de preprint (Zenodo, SSRN, arXiv, ResearchGate).
+Fluxo consolidado da versão 2.2.0, com os registros identificados por fonte, as duplicatas removidas, os registros triados, os lidos por título e resumo, os estudos incluídos por tipo de documento, a distribuição do corpus único por faixa de ano, a contagem de preprints por repositório e o bloco de incorporação das bases novas.
 
 ## `02_triagem/estatisticas_corpus_completo.json`
-Distribuição por ano dos 2.286 registros únicos do corpus completo, isto é, a união dos registros das bases bibliográficas com os registros novos da Web of Science, com total de registros, registros sem ano e contagem de preprints. É o arquivo lido pela figura 2 e pode ser regerado por `scripts/estat_corpus.py`.
+Distribuição por ano dos 6.250 registros únicos do corpus completo, dos quais 5.652 com ano informado, com a contagem de preprints por repositório. É o arquivo lido pela figura 2 e pode ser regerado por `scripts/estat_corpus.py`.
 ## `02_triagem/candidatos_avaliados.csv`
 
-Registros que passaram à avaliação de texto completo ou resumo, com a decisão de triagem nas colunas `decisao` e `motivo`: 57 incluídos e 13 excluídos após leitura.
+Registros que passaram à avaliação de texto completo ou resumo, com a decisão de triagem nas colunas `decisao` e `motivo`, referentes ao corpus inicial.
 
 ## `03_extracao/matriz_extracao.csv`
 
@@ -78,9 +78,29 @@ Um registro por estudo incluído, com a passagem que sustenta cada afirmação d
 | `uso_no_artigo` | Afirmação do artigo que a passagem sustenta |
 | `referencia_completa` | Referência em formato ABNT |
 
+## `01_buscas/scopus/`, `01_buscas/lista/` e `01_buscas/capes/`
+
+Registros recuperados e quadros de consultas das três bases incorporadas na versão 2.2.0, com um arquivo de registros e um arquivo de consultas por base. O arquivo de consultas tem as colunas `consulta` (S1 a S6, A1 a A6 e C1 a C6), `expressao`, `campos`, `filtros`, `ordenacao`, `situacao`, `total_declarado` pela plataforma, `registros_unicos` que permaneceram no arquivo após a deduplicação interna, `data` e `url`. A diferença entre as duas últimas colunas de contagem decorre da remoção de registros repetidos dentro da própria base e, no caso da Scopus e da LISTA, do teto de 200 registros aplicado às consultas de explicabilidade. Os quadros podem ser regerados por `scripts/consultas_v220.py`.
+
+## `02_triagem/novas_bases_deduplicadas.csv`
+
+Os 2.649 registros novos que permaneceram após a remoção de 65 duplicatas entre as bases novas e de 344 duplicatas em relação ao corpus anterior, no mesmo esquema de campos dos registros brutos.
+
+## `02_triagem/triagem_bases_novas.jsonl` e `02_triagem/triagem_bases_novas.csv`
+
+Triagem dos 2.649 registros novos, um registro por linha, com os mesmos campos dos registros brutos e três campos adicionais, a saber, `pontuacao`, `motivo` e `decisao`, em que a decisão 1 indica candidato à leitura de título e resumo e a decisão 0 indica exclusão. O arquivo em CSV traz os mesmos dados em ponto e vírgula.
+
+## `02_triagem/estatisticas_bases_novas.json` e `02_triagem/triagem_bases_novas_stats.json`
+
+O primeiro consolida a incorporação, com os totais por base, as duplicatas internas e contra o corpus anterior, os registros novos e o total após a incorporação. O segundo registra os totais da triagem das bases novas, com os excluídos, os candidatos e a distribuição dos candidatos por fonte.
+
+## `03_extracao/novas_incluidas.csv`
+
+Os 42 estudos incorporados na versão 2.2.0, com as colunas `id`, `source`, `query`, `title`, `authors`, `year`, `venue`, `type`, `doi`, `eixo`, `tipo_contribuicao`, `abstract` e `ref`.
+
 ## `04_planilha/Planilha_auditavel_revisao.xlsx`
 
-Planilha com as abas de buscas, triagem, extração, fluxo PRISMA-ScR e referências verificadas, com fórmulas de conferência entre as abas.
+Planilha com as abas de buscas, buscas das bases novas, triagem, triagem das bases novas, texto completo, extração, estudos incluídos novos, fluxo PRISMA-ScR e bibliometria, com fórmulas de conferência entre as abas.
 
 ## `fontes/metadados_verificados.json`
 
@@ -90,9 +110,13 @@ Metadados de cada referência conferidos em Crossref ou na página do editor, co
 
 Registro das tentativas de obtenção de texto completo, com código de resposta HTTP e origem do arquivo.
 
+## `artigo/`
+
+Artigo completo na versão 2.2.0, em DOCX e PDF, com as figuras incorporadas e a lista de referências atualizada.
+
 ## 05_bibliometria.csv
 
-Um registro por estudo incluído. Campos: `id` (identificador interno), `veiculo` (periódico, anais ou livro), `area` (área do conhecimento atribuída ao veículo), `paises` (códigos ISO das instituições de afiliação, separados por ponto e vírgula), `instituicoes`, `tipo` (tipologia do OpenAlex) e `ano`.
+Um registro por estudo incluído do corpus inicial. Campos: `id` (identificador interno), `veiculo` (periódico, anais ou livro), `area` (área do conhecimento atribuída ao veículo), `paises` (códigos ISO das instituições de afiliação, separados por ponto e vírgula), `instituicoes`, `tipo` (tipologia do OpenAlex) e `ano`.
 
 ## 05_bibliometria_resumo.csv
 

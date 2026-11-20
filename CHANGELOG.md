@@ -2,6 +2,25 @@
 
 Todas as versões do depósito são identificadas por etiqueta no repositório e correspondem a um estado completo dos dados, do protocolo e dos scripts.
 
+## 2.2.0: 20 de novembro de 2026
+
+Ampliação de fontes com a execução da Scopus, da LISTA e do Portal de Periódicos da CAPES, a declaração de indisponibilidade da LISA e a ampliação do corpus de 63 para 163 estudos.
+
+- Execução da Scopus em seis consultas no campo de título, resumo e palavras-chave, com 181, 185, 3, 1.142, 43.627 e 1.090 resultados declarados e 2.801 registros recuperados, dos quais 2.671 permaneceram únicos.
+- Execução da LISTA em seis consultas no campo de título e resumo, com 59, 3, 24, 38, 354 e 22 resultados declarados e 500 registros recuperados, dos quais 327 permaneceram únicos.
+- Execução parcial do Portal de Periódicos da CAPES, com 94 resultados e 30 recuperados na consulta C1, 80 resultados e 30 recuperados na C2, nenhum resultado na C3 e bloqueio das consultas C4, C5 e C6 pelo firewall CloudFront do serviço, o que totalizou 60 registros.
+- Declaração de indisponibilidade da LISA, uma vez que a assinatura ProQuest da Universidade Federal de Minas Gerais, de identificador 134127, oferece apenas Coronavirus Research Database, Ebook Central, Education Research Index e Publicly Available Content Database, sem a Library and Information Science Abstracts; as expressões permanecem registradas no protocolo para execução futura.
+- Adoção do teto de 200 registros por consulta nas expressões de explicabilidade da Scopus, com 43.627 resultados declarados, e da LISTA, com 354 resultados declarados, decisão equivalente à já aplicada à OpenAlex, ao Google Acadêmico e à BDTD e declarada nas figuras de fluxo e nas limitações do artigo.
+- Consolidação da incorporação: 3.058 registros identificados nas bases novas, 65 duplicatas entre elas e 344 em relação ao corpus anterior, o que resultou em 2.649 registros novos e elevou o corpus único a 6.250 registros.
+- Triagem das bases novas com 1.033 registros excluídos, 1.616 candidatos submetidos à leitura de título e resumo e 100 estudos incluídos, sendo 98 da Scopus e 2 da LISTA.
+- Recálculo integral do fluxo: 6.745 registros identificados, 916 duplicatas removidas, 5.829 registros triados, 2.211 lidos por título e resumo, 5.666 não incluídos e 163 estudos incluídos, dos quais 157 artigos, capítulos e trabalhos em anais e 6 teses e dissertações, publicados entre 1983 e 2026, com 113 estudos, ou 69,3%, de 2025 ou 2026.
+- Estatísticas do corpus completo atualizadas para 6.250 registros únicos, dos quais 5.652 com ano informado e 193 provenientes de repositórios de preprint.
+- Figuras 1 e 2 refeitas para os novos totais, com o quadro das dez fontes e percursos e a distribuição temporal dos 5.652 registros com ano.
+- Planilha auditável regerada, com as abas de buscas das bases novas, triagem das bases novas e estudos incluídos novos conciliadas com o fluxo.
+- Emenda ao protocolo atualizada para a versão 2.2, de 20 de novembro de 2026, com os quadros de consultas da Scopus, da LISTA e do Portal de Periódicos da CAPES, o registro das decisões metodológicas e o histórico de versões.
+- Artigo incorporado ao depósito na versão 2.2.0, em DOCX e PDF, na pasta artigo/.
+- Dados de coleta e de triagem das bases novas publicados em dados/01_buscas/scopus/, dados/01_buscas/lista/, dados/01_buscas/capes/, dados/02_triagem/ e dados/03_extracao/.
+
 ## 2.1.0 — 19 de novembro de 2026
 Ampliação de fontes e correção do recorte temporal do artigo.
 - Execução da BDTD em doze consultas de todos os campos, sem filtros, que somaram 1.029 registros e 740 elegíveis após deduplicação e exclusão automática.

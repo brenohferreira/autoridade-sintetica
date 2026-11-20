@@ -1,29 +1,58 @@
 {
- "identificados": 2658,
+ "versao": "2.2.0",
+ "data": "2026-11-20",
+ "identificados": 6745,
  "por_fonte": {
   "BRAPCI": 48,
   "OpenAlex": 1019,
-  "Web of Science": 1407,
   "Google Acadêmico": 70,
+  "Web of Science": 1407,
+  "Scopus": 2671,
+  "LISTA": 327,
+  "Portal de Periódicos da CAPES": 60,
+  "BDTD": 1029,
   "Rastreamento": 106,
   "Busca dirigida": 8
  },
- "duplicatas": 372,
- "unicos": 2286,
- "incluidos": 57,
- "excluidos": 2229,
- "faixas_ano": {
-  "<2000": 32,
-  "2000-09": 60,
-  "2010-14": 72,
-  "2015-19": 122,
-  "2020-24": 312,
-  "2025-26": 1511
+ "duplicatas": 916,
+ "triados": 5829,
+ "lidos_titulo_resumo": 2211,
+ "incluidos": 163,
+ "incluidos_artigos_capitulos_anais": 157,
+ "incluidos_teses_dissertacoes": 6,
+ "excluidos": 5666,
+ "periodo": {
+  "inicio": 1983,
+  "fim": 2026
  },
+ "incluidos_2025_2026": 113,
+ "incluidos_2025_2026_percentual": 69.3,
+ "corpus_unico": 6250,
+ "corpus_unico_com_ano": 5652,
+ "faixas_ano": {
+  "ate_2019": 624,
+  "2020_2024": 1261,
+  "2025_2026": 3767
+ },
+ "preprints": 193,
  "repositorios": {
-  "arXiv": 36,
-  "SSRN": 76,
   "Zenodo": 77,
+  "SSRN": 76,
+  "arXiv": 36,
   "Research Square": 4
+ },
+ "incorporacao_bases_novas": {
+  "identificados": 3058,
+  "duplicatas_entre_bases_novas": 65,
+  "duplicatas_contra_corpus_anterior": 344,
+  "novos_unicos": 2649,
+  "corpus_anterior": 3601,
+  "triagem": {
+   "excluidos": 1033,
+   "candidatos": 1616,
+   "incluidos": 100,
+   "incluidos_scopus": 98,
+   "incluidos_lista": 2
+  }
  }
 }

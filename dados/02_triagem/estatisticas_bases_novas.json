@@ -1,0 +1,15 @@
+{
+  "scopus": 2671,
+  "lista": 327,
+  "capes": 60,
+  "capes_totais": {
+    "C1": "94 resultados",
+    "C2": "80 resultados"
+  },
+  "identificados_novas": 3058,
+  "duplicatas_entre_novas": 65,
+  "duplicatas_com_corpus_anterior": 344,
+  "novos_unicos": 2649,
+  "corpus_anterior": 3601,
+  "total_apos_incorporacao": 6250
+}
