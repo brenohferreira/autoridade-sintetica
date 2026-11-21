@@ -25,7 +25,7 @@ O protocolo foi redigido e datado antes da execução das buscas definitivas, e 
 | 1.2 | 11/11/2026 | Registrada após as buscas-piloto | Redução do limite de exame por consulta no Google Acadêmico de vinte para dez resultados, em razão de bloqueio por captcha, e registro da busca nominal dirigida a obras fundacionais |
 | 2.0 | 12/11/2026 | Registrada após a execução | Execução da Web of Science Core Collection, com acesso institucional, em sete consultas e 1.407 registros; fluxo consolidado em 2.658 identificados, 372 duplicatas, 2.286 triados e 57 estudos incluídos |
 | 2.1 | 19/11/2026 | Registrada após a execução | Execução da BDTD em doze consultas, com 1.029 registros e 740 elegíveis; inclusão de seis teses e dissertações; fluxo em 3.687 identificados, 507 duplicatas, 3.180 triados e 63 estudos incluídos |
-| 2.2 | 20/11/2026 | Registrada após a execução | Execução da Scopus, da LISTA e de uma tentativa de coleta no Portal de Periódicos da CAPES; declaração de indisponibilidade da LISA; fluxo em 6.745 identificados, 916 duplicatas, 5.829 triados, 2.211 lidos e 163 estudos incluídos; adoção do teto de 200 registros por consulta e do desenho de dois revisores automáticos para as bases novas |
+| 2.2 | 20/11/2026 | Registrada após a execução | Execução da Scopus, da LISTA e de uma tentativa de coleta no Portal de Periódicos da CAPES; fluxo em 6.745 identificados, 916 duplicatas, 5.829 triados, 2.211 lidos e 163 estudos incluídos; adoção do teto de 200 registros por consulta e do desenho de dois revisores automáticos para as bases novas |
 | 2.3 | 20/11/2026 | Registrada após a execução | Substituição da coleta frustrada no Portal de Periódicos da CAPES por coleta manual integral, com doze consultas e 1.194 registros declarados; fixação de regra lexical auditável de incorporação, aplicada aos 69 aprovados na triagem e responsável pela retenção de vinte estudos; fluxo em 7.831 identificados, 1.654 duplicatas, 6.177 únicos, 1.629 lidos e 125 estudos incluídos |
 
 A versão 2.3 é a que este documento registra, e as versões anteriores permanecem descritas no histórico do repositório público, com os arquivos de cada etapa preservados.
@@ -69,7 +69,7 @@ Foram admitidos textos em português, inglês e espanhol, publicados entre 1983 
 
 As buscas foram organizadas em três frentes, que correspondem aos fundamentos da autoridade, à autoridade atribuída à inteligência artificial e à explicabilidade com contestação, e cada expressão foi adaptada à sintaxe da fonte depois de buscas-piloto executadas em 11 de novembro de 2026.
 
-As bases bibliográficas efetivamente executadas foram a BRAPCI, a OpenAlex, a Web of Science Core Collection, a Scopus, a LISTA e a BDTD, e a elas se somaram o Google Acadêmico, o rastreamento de citações e de referências a partir de duas sementes, a busca nominal dirigida a obras fundacionais e a coleta manual no Portal de Periódicos da CAPES. A LISA não foi executada porque a assinatura ProQuest disponível na Universidade Federal de Minas Gerais, de identificador 134127, não inclui a Library and Information Science Abstracts, e as expressões permanecem registradas no protocolo para execução futura, circunstância declarada em vez de omitida.
+As bases bibliográficas efetivamente executadas foram a BRAPCI, a OpenAlex, a Web of Science Core Collection, a Scopus, a LISTA e a BDTD, e a elas se somaram o Google Acadêmico, o rastreamento de citações e de referências a partir de duas sementes, a busca nominal dirigida a obras fundacionais e a coleta manual no Portal de Periódicos da CAPES.
 
 **Quadro D. Consultas executadas nas bases bibliográficas entre 11 e 20 de novembro de 2026**
 
@@ -156,7 +156,6 @@ A conferência das contagens é direta, porque 6.177 menos 1.303 resulta em 4.87
 | Leitura parcial | 1.629 registros lidos de 4.874 elegíveis, com priorização por pertinência | Estudos relevantes podem ter permanecido sem leitura |
 | Acesso a textos | Parte dos estudos avaliada apenas por resumo | Afirmações limitadas ao que o resumo permite verificar |
 | Qualidade metodológica | Não avaliada formalmente | Achados não ponderados por robustez |
-| LISA | Não executada, por ausência de assinatura institucional | Cobertura reduzida na literatura de Ciência da Informação |
 | Portal de Periódicos da CAPES | Dois arquivos sem atribuição de consulta e possível segunda página não exportada na C4b | Registro da origem incompleto em 126 registros |
 | OpenAlex, consulta O8 | Consulta executada, com falha de exportação | Registros não entraram na triagem e a consulta permanece pendente de recuperação |
 

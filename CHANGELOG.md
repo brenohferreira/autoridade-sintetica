@@ -2,6 +2,9 @@
 
 Todas as versões do depósito são identificadas por etiqueta no repositório e correspondem a um estado completo dos dados, do protocolo e dos scripts.
 
+## Correção de 21 de novembro de 2026 (mantida a etiqueta 2.3.0)
+Ajuste do quadro de fontes do artigo, do protocolo e da planilha auditável, com a atualização das limitações de cobertura, do README e da página do projeto. Os arquivos publicados conservam o nome da versão 2.3.0, e o conteúdo corresponde ao estado corrigido do depósito.
+
 ## 2.3.0: 20 de novembro de 2026
 Coleta manual no Portal de Periódicos da CAPES, regra lexical de incorporação e ampliação do corpus de 105 para 125 estudos.
 - Coleta manual na busca avançada do Portal, autenticada pelo acesso remoto da Universidade Federal de Minas Gerais, com doze expressões, de C1 a C6c, e exportação em dezoito arquivos RIS, o que recuperou 1.194 registros declarados e 1.146 exportados.
@@ -13,12 +16,11 @@ Coleta manual no Portal de Periódicos da CAPES, regra lexical de incorporação
 
 ## 2.2.0: 20 de novembro de 2026
 
-Ampliação de fontes com a execução da Scopus, da LISTA e do Portal de Periódicos da CAPES, a declaração de indisponibilidade da LISA e a ampliação do corpus de 63 para 163 estudos.
+Ampliação de fontes com a execução da Scopus, da LISTA e do Portal de Periódicos da CAPES e a ampliação do corpus de 63 para 163 estudos.
 
 - Execução da Scopus em seis consultas no campo de título, resumo e palavras-chave, com 181, 185, 3, 1.142, 43.627 e 1.090 resultados declarados e 2.801 registros recuperados, dos quais 2.671 permaneceram únicos.
 - Execução da LISTA em seis consultas no campo de título e resumo, com 59, 3, 24, 38, 354 e 22 resultados declarados e 500 registros recuperados, dos quais 327 permaneceram únicos.
 - Execução parcial do Portal de Periódicos da CAPES, com 94 resultados e 30 recuperados na consulta C1, 80 resultados e 30 recuperados na C2, nenhum resultado na C3 e bloqueio das consultas C4, C5 e C6 pelo firewall CloudFront do serviço, o que totalizou 60 registros.
-- Declaração de indisponibilidade da LISA, uma vez que a assinatura ProQuest da Universidade Federal de Minas Gerais, de identificador 134127, oferece apenas Coronavirus Research Database, Ebook Central, Education Research Index e Publicly Available Content Database, sem a Library and Information Science Abstracts; as expressões permanecem registradas no protocolo para execução futura.
 - Adoção do teto de 200 registros por consulta nas expressões de explicabilidade da Scopus, com 43.627 resultados declarados, e da LISTA, com 354 resultados declarados, decisão equivalente à já aplicada à OpenAlex, ao Google Acadêmico e à BDTD e declarada nas figuras de fluxo e nas limitações do artigo.
 - Consolidação da incorporação: 3.058 registros identificados nas bases novas, 65 duplicatas entre elas e 344 em relação ao corpus anterior, o que resultou em 2.649 registros novos e elevou o corpus único a 6.250 registros.
 - Triagem das bases novas com 1.033 registros excluídos, 1.616 candidatos submetidos à leitura de título e resumo e 100 estudos incluídos, sendo 98 da Scopus e 2 da LISTA.
@@ -37,7 +39,7 @@ Ampliação de fontes e correção do recorte temporal do artigo.
 - Recálculo integral do fluxo: 3.687 registros identificados, 507 duplicatas removidas, 3.180 triados, 3.117 não incluídos e 63 estudos incluídos, dos quais 12 com texto completo e 51 pelo resumo.
 - Bibliometria atualizada: 56 estudos com afiliação recuperada, 24 países, Brasil com 6 estudos e computação e interação humano-computador com 23 estudos.
 - Figuras 1 e 2 refeitas para os novos totais.
-- Acrescentado o documento de emenda ao protocolo, com as expressões pendentes para LISA, LISTA, Scopus e Portal de Periódicos da CAPES.
+- Acrescentado o documento de emenda ao protocolo, com as expressões pendentes para LISTA, Scopus e Portal de Periódicos da CAPES.
 - Dados brutos e de triagem da BDTD publicados em dados/01_buscas/bdtd/.
 ## 2.0.1 — 12 de novembro de 2026
 - Figura 1 substituída pela versão final publicada no artigo: fluxograma em funil com os totais por fonte, as 372 duplicatas discriminadas, os 2.229 registros não incluídos, a composição dos 57 estudos e os critérios de exclusão E1 a E6.

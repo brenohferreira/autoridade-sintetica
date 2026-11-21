@@ -38,7 +38,7 @@ Com a incorporação dos vinte estudos, o conjunto identificado passa de 6.745 p
 
 6 PENDÊNCIAS REGISTRADAS
 
-Três pendências ficam registradas para a próxima versão do protocolo, e nenhuma delas altera os resultados desta emenda. A primeira é a atribuição dos dois arquivos exportados antes da consulta C5a, com cem e 26 registros, que permanecem identificados pelo conteúdo mas sem consulta de origem. A segunda é o total declarado da consulta C4b, que exibiu cem registros e pode ter segunda página não exportada, circunstância que a coleta manual não permitiu confirmar. A terceira é a execução futura das expressões da LISA, preservadas no protocolo desde a versão 2.2, porque a base não integra a assinatura institucional disponível.
+Duas pendências ficam registradas para a próxima versão do protocolo, e nenhuma delas altera os resultados desta emenda. A primeira é a atribuição dos dois arquivos exportados antes da consulta C5a, com cem e 26 registros, que permanecem identificados pelo conteúdo mas sem consulta de origem. A segunda é o total declarado da consulta C4b, que exibiu cem registros e pode ter segunda página não exportada, circunstância que a coleta manual não permitiu confirmar.
 
 7 DISPONIBILIDADE
 

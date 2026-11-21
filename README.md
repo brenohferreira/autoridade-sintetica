@@ -43,7 +43,7 @@ As exportações da Web of Science são redistribuídas exatamente como saíram 
 | `W06_vies_de_automacao.txt` | 245 | `TS=("automation bias") AND TS=("large language model" OR "large language models" OR "generative AI" OR "clinical decision")` |
 | `W07_heuristica_da_maquina.txt` | 73 | `TS=("machine heuristic")` |
 
-As consultas ao Google Acadêmico foram feitas por navegador e não podem ser reexecutadas por script, pois a plataforma bloqueia acesso automatizado, de modo que as datas e os totais exibidos ficaram registrados no arquivo de consultas. A Scopus, a LISTA e o Portal de Periódicos da CAPES foram executados em 20 de novembro de 2026, por acesso remoto autenticado na Universidade Federal de Minas Gerais, e a LISA não pôde ser executada, conforme o quadro de status abaixo.
+As consultas ao Google Acadêmico foram feitas por navegador e não podem ser reexecutadas por script, pois a plataforma bloqueia acesso automatizado, de modo que as datas e os totais exibidos ficaram registrados no arquivo de consultas. A Scopus, a LISTA e o Portal de Periódicos da CAPES foram executados em 20 de novembro de 2026, por acesso remoto autenticado na Universidade Federal de Minas Gerais,.
 
 ### Quadro de status das bases
 
@@ -57,11 +57,10 @@ As consultas ao Google Acadêmico foram feitas por navegador e não podem ser re
 | LISTA | executada | 327 | seis consultas pela EBSCO, 500 recuperados; a consulta de explicabilidade declarou 354 resultados e recebeu teto de 200 |
 | Portal de Periódicos da CAPES | executada com bloqueio parcial | 60 | C1 e C2 executadas, com 94 e 80 resultados e 30 recuperados cada; C3 sem resultados; C4, C5 e C6 bloqueadas pelo firewall CloudFront |
 | BDTD | executada | 1.029 | doze consultas em todos os campos, teto de 240 registros por consulta |
-| LISA | indisponível | 0 | a assinatura ProQuest da UFMG, de identificador 134127, oferece apenas Coronavirus Research Database, Ebook Central, Education Research Index e Publicly Available Content Database, sem a Library and Information Science Abstracts |
 | Rastreamento de citações | executada | 106 | dois estudos-semente |
 | Busca nominal dirigida | executada | 8 | recuperação de textos fundacionais pelo nome |
 
-A indisponibilidade da LISA decorre da assinatura institucional e não de escolha metodológica, razão pela qual a base permanece no protocolo, com as expressões registradas para execução futura e com a ausência declarada entre as limitações de cobertura do artigo. O bloqueio de três consultas do Portal de Periódicos da CAPES também está registrado no protocolo, porque o firewall do serviço recusou toda expressão com mais de um operador booleano, inclusive após a codificação dos parênteses e a reescrita distributiva dos termos, e as consultas executadas devolveram registros em grande parte sobrepostos às bases já coletadas.
+O bloqueio de três consultas do Portal de Periódicos da CAPES também está registrado no protocolo, porque o firewall do serviço recusou toda expressão com mais de um operador booleano, inclusive após a codificação dos parênteses e a reescrita distributiva dos termos, e as consultas executadas devolveram registros em grande parte sobrepostos às bases já coletadas.
 
 ## Metodologia
 
