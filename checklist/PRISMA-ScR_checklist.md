@@ -1,6 +1,6 @@
 # Lista de verificação PRISMA-ScR
 
-Preenchimento referente ao artigo *Autoridade sintética na IA generativa e explicabilidade como direito: uma revisão de escopo*, conforme Tricco et al. (2018). As seções indicadas correspondem ao artigo em ABNT.
+Preenchimento referente ao artigo *Autoridade sintética na inteligência artificial generativa: uma revisão de escopo sobre autoridade cognitiva, autoridade epistêmica e explicabilidade*, conforme Tricco et al. (2018). As seções indicadas correspondem ao artigo em ABNT.
 
 | Nº | Item | Descrição | Onde está atendido | Situação |
 |---|---|---|---|---|

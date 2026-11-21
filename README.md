@@ -1,4 +1,4 @@
-# Autoridade sintética na IA generativa e os limites da explicabilidade
+# AUTORIDADE SINTÉTICA NA INTELIGÊNCIA ARTIFICIAL GENERATIVA: UMA REVISÃO DE ESCOPO SOBRE AUTORIDADE COGNITIVA, AUTORIDADE EPISTÊMICA E EXPLICABILIDADE
 
 Este repositório reúne os dados, o protocolo, as figuras e os scripts produzidos para a revisão de escopo sobre a autoridade que os usuários atribuem à inteligência artificial generativa e sobre as condições em que a explicabilidade permite examinar e contestar suas respostas. O artigo que sintetiza os resultados é redistribuído na pasta `artigo/`, na versão 2.3.0, em DOCX e PDF, ao lado da emenda ao protocolo que registra a execução das bases incorporadas nesta versão.
 
@@ -109,7 +109,7 @@ Lattes: http://lattes.cnpq.br/5720093855838869
 ## Como citar
 
 A citação do depósito está descrita no arquivo `CITATION.cff`. Enquanto não houver identificador persistente atribuído pela OSF, use:
-> FERREIRA, Breno Heleno. **Autoridade sintética na IA generativa e os limites da explicabilidade: dados, protocolo e scripts de uma revisão de escopo**. Versão 2.3.0. 2026. Repositório GitHub. Disponível em: https://github.com/brenohferreira/autoridade-sintetica. Acesso em: [data].
+> FERREIRA, Breno Heleno. **AUTORIDADE SINTÉTICA NA INTELIGÊNCIA ARTIFICIAL GENERATIVA: UMA REVISÃO DE ESCOPO SOBRE AUTORIDADE COGNITIVA, AUTORIDADE EPISTÊMICA E EXPLICABILIDADE: dados, protocolo e scripts**. Versão 2.3.0. 2026. Repositório GitHub. Disponível em: https://github.com/brenohferreira/autoridade-sintetica. Acesso em: [data].
 O protocolo registrado na OSF cita-se como:
 > FERREIRA, Breno Heleno. **Protocolo e registro da revisão de escopo: autoridade sintética, autoridade cognitiva e autoridade epistêmica na inteligência artificial generativa (versão 2.3)**. OSF Preregistration. 2026. Disponível em: https://osf.io/kvzqd/. Acesso em: [data].
 
